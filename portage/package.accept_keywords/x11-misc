@@ -32,3 +32,6 @@
 =net-misc/sb-hosts-9999 **
 # required by sys-fs/archivemount (argument)
 =sys-fs/archivemount-0.9.1 ~amd64
+# required by www-client/brave-bin-1.77.100::djs_overlay
+# required by www-client/brave-bin (argument)
+=dev-libs/libpthread-stubs-0.5 **
