@@ -1,13 +1,5 @@
 app-admin/usbview app-emulation/virtualbox mail-filter/bmf drive net-misc/sb-hosts
  
-sys-apps/hdparm sys-apps/hwloc sys-apps/lshw sys-apps/mlocate sys-apps/moreutils sys-apps/netplug 
-sys-apps/preload sys-apps/progress sys-apps/pv sys-apps/readahead-list sys-apps/vbetool 
-sys-apps/watchdog sys-block/blktrace sys-block/di sys-block/f3 sys-block/io-scheduler-udev-rules 
-sys-devel/crossdev sys-fs/android-file-transfer-linux sys-fs/archivemount sys-fs/avfs 
-sys-fs/dd-rescue sys-fs/exfat-utils sys-fs/squashfs-tools sys-power/acpi sys-power/acpitool 
-sys-power/cpupower sys-power/hibernate-script sys-power/pmtools sys-power/thermald 
-sys-process/bpytop::gentoo sys-process/daemontools-encore sys-process/htop sys-process/incron 
-sys-process/lsof sys-process/nmon sys-process/parallel sys-process/schedtool 
 sys-process/wait_on_pid sys-process/watchpid www-client/brave-bin www-misc/monitorix 
 www-misc/profile-sync-daemon::gentoo x11-apps/scripts x11-apps/showfont x11-apps/xbacklight 
 x11-apps/xbiff x11-apps/xconsole x11-apps/xev x11-apps/xfontsel x11-apps/xhost x11-apps/xkill 

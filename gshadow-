@@ -44,3 +44,5 @@ vboxusers:!::
 arpwatch:!::
 openvpn:!::
 dnsmasq:!::
+ngrep:!::
+polkitd:!::
