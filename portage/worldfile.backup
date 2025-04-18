@@ -1,14 +1,7 @@
 app-admin/usbview  
 app-emulation/virtualbox
  
-app-vim/gitlog app-vim/gitv app-vim/greputils app-vim/gundo app-vim/help-extra-syntax app-vim/info 
-app-vim/l9 app-vim/languagetool app-vim/multiplesearch app-vim/neocomplcache app-vim/nerdcommenter 
-app-vim/pushpop app-vim/rainbow_parentheses app-vim/recover app-vim/reload app-vim/searchcomplete 
-app-vim/session app-vim/syntastic app-vim/toggle app-vim/udev-syntax app-vim/undotree 
-app-vim/uptime app-vim/vim-autoclose app-vim/vim-clang-format app-vim/vim-commentary 
-app-vim/vim-misc app-vim/vim-spell-en app-vim/vimagit app-vim/vimbuddy app-vim/voom 
-dev-python/html2text dev-python/netifaces dev-util/android-tools dev-util/cligh dev-util/howdoi 
-dev-util/linklint dev-util/systemtap dev-vcs/hub games-board/xmahjongg 
+dev-util/linklint dev-vcs/hub games-board/xmahjongg 
 games-misc/fortune-mod-bofh-excuses games-misc/fortune-mod-chucknorris 
 games-misc/fortune-mod-kernelcookies games-misc/fortune-mod-osfortune games-misc/fortune-mod-tao 
 games-misc/fortune-mod-taow games-misc/funny-manpages games-misc/wtf games-strategy/dopewars 
