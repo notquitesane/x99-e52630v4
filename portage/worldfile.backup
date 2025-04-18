@@ -1,13 +1,7 @@
 app-admin/usbview  
-app-emulation/virtualbox 
-app-portage/gentmaint app-portage/logclean app-portage/portage-bashrc-mv app-portage/portconf 
-app-portage/portpeek app-portage/showem app-portage/world-mv app-shells/auto-fu-zsh 
-app-shells/fast-syntax-highlighting app-shells/gentoo-zsh-completions app-shells/set_prompt 
-app-shells/thefuck app-shells/zsh-autosuggestions app-shells/zsh-completions 
-app-shells/zsh-syntax-highlighting app-text/ansifilter app-text/html2text app-text/qpdf 
-app-text/wgetpaste app-vim/align app-vim/autoalign app-vim/bash-support app-vim/brainfuck-syntax 
-app-vim/checkattach app-vim/closetag app-vim/colorschemes app-vim/ctrlp app-vim/detectindent 
-app-vim/dhcpd-syntax app-vim/easy-align app-vim/errsign app-vim/genindent app-vim/gist 
+app-emulation/virtualbox
+app-portage/portconf
+ 
 app-vim/gitlog app-vim/gitv app-vim/greputils app-vim/gundo app-vim/help-extra-syntax app-vim/info 
 app-vim/l9 app-vim/languagetool app-vim/multiplesearch app-vim/neocomplcache app-vim/nerdcommenter 
 app-vim/pushpop app-vim/rainbow_parentheses app-vim/recover app-vim/reload app-vim/searchcomplete 

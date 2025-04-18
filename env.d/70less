@@ -1,2 +1,2 @@
-LESSOPEN="|lesspipe %s"
-LESS="-R -M --shift 5"
+LESSOPEN="|lesspipe.sh %s"
+LESS="-sFRiMX --shift 5"
