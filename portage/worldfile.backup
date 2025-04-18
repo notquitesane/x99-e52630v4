@@ -1,19 +1,13 @@
 app-admin/usbview  
 app-emulation/virtualbox
+mail-filter/bmf
  
-dev-util/linklint dev-vcs/hub games-board/xmahjongg 
-games-misc/fortune-mod-bofh-excuses games-misc/fortune-mod-chucknorris 
-games-misc/fortune-mod-kernelcookies games-misc/fortune-mod-osfortune games-misc/fortune-mod-tao 
-games-misc/fortune-mod-taow games-misc/funny-manpages games-misc/wtf games-strategy/dopewars 
-mail-client/mutt mail-filter/bmf mail-filter/bogofilter mail-mta/msmtp 
-media-fonts/croscorefonts media-fonts/terminus-font media-gfx/aview media-gfx/cura media-gfx/feh 
-media-gfx/fim media-gfx/gifsicle media-gfx/gimp media-gfx/gpicview  media-gfx/imagemagick 
 media-gfx/jpegtoavi media-gfx/pngcheck media-gfx/pngcrush media-gfx/pngtools media-gfx/qiv 
 media-gfx/scrot media-gfx/sxiv media-gfx/termtosvg media-gfx/xli media-gfx/xv 
 media-sound/alsa-tools media-sound/mpd media-sound/mpg123 media-sound/mps-youtube 
 media-sound/ncmpcpp media-sound/pavucontrol media-video/mpv media-video/rtmpdump 
 net-analyzer/arpwatch net-analyzer/bmon net-analyzer/bwbar net-analyzer/bwm-ng 
-net-analyzer/ifstatus net-analyzer/iftop net-analyzer/ipband net-analyzer/macchanger 
+net-analyzer/ifstatus net-analyzer/iftop net-analyzer/ipband  
 net-analyzer/nethogs net-analyzer/ngrep net-analyzer/nmap net-analyzer/speedtest-cli 
 net-dns/dnsmasq net-fs/sshfs net-im/discord-bin net-im/zoom net-irc/irssi net-irc/irssi-xmpp 
 net-mail/renattach net-mail/ripmime net-misc/autossh net-misc/drive net-misc/keychain 
