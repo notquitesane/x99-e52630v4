@@ -25,3 +25,5 @@
 =app-vim/vimagit-1.7.3 ~amd64
 # required by dev-vcs/hub (argument)
 =dev-vcs/hub-2.14.2-r1 ~amd64
+# required by games-board/xmahjongg (argument)
+=games-board/xmahjongg-3.7-r2 ~amd64
