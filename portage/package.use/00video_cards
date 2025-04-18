@@ -7,3 +7,4 @@ dev-dotnet/libgdiplus cairo
 dev-libs/libdbusmenu gtk3
 virtual/imagemagick-tools png svg
 sys-process/lsof rpc
+dev-libs/xmlsec nss
