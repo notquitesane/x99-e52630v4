@@ -79,7 +79,6 @@ maybe chmod 0644 'config-archive/etc/portage/package.accept_keywords/99local.con
 maybe chmod 0644 'config-archive/etc/portage/package.accept_keywords/99local.conf.8'
 maybe chmod 0644 'config-archive/etc/portage/package.accept_keywords/99local.conf.9'
 maybe chmod 0644 'config-archive/etc/portage/package.accept_keywords/99local.conf.dist'
-maybe chmod 0644 'config-archive/etc/portage/package.accept_keywords/99local.conf.dist.new'
 maybe chmod 0755 'config-archive/etc/portage/package.license'
 maybe chmod 0644 'config-archive/etc/portage/package.license/www-client'
 maybe chmod 0644 'config-archive/etc/portage/package.license/www-client.1'
