@@ -8,3 +8,5 @@ www-client/vivaldi Vivaldi
 >=sys-firmware/intel-microcode-20250211_p20250211 intel-ucode
 # required by app-vim/colorschemes (argument)
 app-vim/* vim.org
+# required by app-text/agrep (argument)
+>=app-text/agrep-2.04-r2 AGREP
