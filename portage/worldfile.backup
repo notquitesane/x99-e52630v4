@@ -58,4 +58,3 @@ www-misc/profile-sync-daemon::gentoo x11-apps/scripts x11-apps/showfont x11-apps
 x11-apps/xbiff x11-apps/xconsole x11-apps/xev x11-apps/xfontsel x11-apps/xhost x11-apps/xkill 
 x11-apps/xlsatoms x11-apps/xlsclients x11-misc/imwheel x11-misc/lsw x11-misc/qcomicbook 
 x11-misc/safeeyes x11-misc/unclutter x11-misc/xautomation x11-misc/xcape x11-misc/xcompmgr 
-x11-misc/xdotool x11-misc/xidle x11-misc/xkbd x11-misc/xkeycaps x11-misc/xscreensaver 

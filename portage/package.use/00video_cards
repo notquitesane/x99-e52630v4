@@ -2,3 +2,4 @@
 www-client/elinks gpm
 media-libs/libglvnd X
 x11-libs/motif xft
+dev-lang/python tk
