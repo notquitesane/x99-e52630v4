@@ -5,7 +5,7 @@ dev-util/linklint dev-vcs/hub games-board/xmahjongg
 games-misc/fortune-mod-bofh-excuses games-misc/fortune-mod-chucknorris 
 games-misc/fortune-mod-kernelcookies games-misc/fortune-mod-osfortune games-misc/fortune-mod-tao 
 games-misc/fortune-mod-taow games-misc/funny-manpages games-misc/wtf games-strategy/dopewars 
-mail-client/mutt mail-client/mutt-wizard mail-filter/bmf mail-filter/bogofilter mail-mta/msmtp 
+mail-client/mutt mail-filter/bmf mail-filter/bogofilter mail-mta/msmtp 
 media-fonts/croscorefonts media-fonts/terminus-font media-gfx/aview media-gfx/cura media-gfx/feh 
 media-gfx/fim media-gfx/gifsicle media-gfx/gimp media-gfx/gpicview  media-gfx/imagemagick 
 media-gfx/jpegtoavi media-gfx/pngcheck media-gfx/pngcrush media-gfx/pngtools media-gfx/qiv 
