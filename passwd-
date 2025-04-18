@@ -22,3 +22,6 @@ cron:x:16:16:A user for sys-process/cronbase:/var/spool/cron:/sbin/nologin
 nullmail:x:88:88:A user for the nullmailer:/var/spool/nullmailer:/sbin/nologin
 libreoffice:x:512:512:A user for the headless LibreOffice server:/var/lib/libreoffice:/sbin/nologin
 mpd:x:45:18:A user for music player daemon (mpd):/var/lib/mpd:/sbin/nologin
+arpwatch:x:170:170:A user for net-analyzer/arpwatch:/dev/null:/sbin/nologin
+openvpn:x:394:394:User for net-vpn/openvpn:/dev/null:/sbin/nologin
+dnsmasq:x:275:275:User for net-dns/dnsmasq:/dev/null:/sbin/nologin

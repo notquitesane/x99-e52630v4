@@ -1,13 +1,5 @@
-app-admin/usbview  
-app-emulation/virtualbox
-mail-filter/bmf
+app-admin/usbview app-emulation/virtualbox mail-filter/bmf drive net-misc/sb-hosts
  
-net-analyzer/nethogs net-analyzer/ngrep net-analyzer/nmap net-analyzer/speedtest-cli 
-net-dns/dnsmasq net-fs/sshfs net-im/discord-bin net-im/zoom net-irc/irssi net-irc/irssi-xmpp 
-net-mail/renattach net-mail/ripmime net-misc/autossh net-misc/drive net-misc/keychain 
-net-misc/lanmap net-misc/netifrc net-misc/sb-hosts net-misc/sshrc net-misc/throttle 
-net-p2p/torrentinfo net-vpn/openvpn sci-calculators/units sys-apps/bar sys-apps/biosdevname 
-sys-apps/daemonize sys-apps/dstat sys-apps/earlyoom sys-apps/ethtool sys-apps/fakechroot 
 sys-apps/hdparm sys-apps/hwloc sys-apps/lshw sys-apps/mlocate sys-apps/moreutils sys-apps/netplug 
 sys-apps/preload sys-apps/progress sys-apps/pv sys-apps/readahead-list sys-apps/vbetool 
 sys-apps/watchdog sys-block/blktrace sys-block/di sys-block/f3 sys-block/io-scheduler-udev-rules 

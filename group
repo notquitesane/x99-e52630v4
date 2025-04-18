@@ -42,3 +42,6 @@ libreoffice:x:512:
 lpadmin:x:106:
 vboxusers:x:304:
 arpwatch:x:170:
+openvpn:x:394:
+dnsmasq:x:275:
+ngrep:x:185:

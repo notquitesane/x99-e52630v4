@@ -41,3 +41,6 @@ crontab:!::
 libreoffice:!::
 lpadmin:!::
 vboxusers:!::
+arpwatch:!::
+openvpn:!::
+dnsmasq:!::
