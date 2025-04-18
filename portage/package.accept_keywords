@@ -27,3 +27,5 @@
 =dev-vcs/hub-2.14.2-r1 ~amd64
 # required by games-board/xmahjongg (argument)
 =games-board/xmahjongg-3.7-r2 ~amd64
+# required by games-misc/fortune-mod-chucknorris (argument)
+=games-misc/fortune-mod-chucknorris-0.1 ~amd64
