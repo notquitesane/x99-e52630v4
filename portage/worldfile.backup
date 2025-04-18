@@ -1,6 +1,5 @@
 app-admin/usbview  
 app-emulation/virtualbox
-app-portage/portconf
  
 app-vim/gitlog app-vim/gitv app-vim/greputils app-vim/gundo app-vim/help-extra-syntax app-vim/info 
 app-vim/l9 app-vim/languagetool app-vim/multiplesearch app-vim/neocomplcache app-vim/nerdcommenter 
