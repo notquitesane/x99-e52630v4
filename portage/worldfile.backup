@@ -2,12 +2,6 @@ app-admin/usbview
 app-emulation/virtualbox
 mail-filter/bmf
  
-media-gfx/jpegtoavi media-gfx/pngcheck media-gfx/pngcrush media-gfx/pngtools media-gfx/qiv 
-media-gfx/scrot media-gfx/sxiv media-gfx/termtosvg media-gfx/xli media-gfx/xv 
-media-sound/alsa-tools media-sound/mpd media-sound/mpg123 media-sound/mps-youtube 
-media-sound/ncmpcpp media-sound/pavucontrol media-video/mpv media-video/rtmpdump 
-net-analyzer/arpwatch net-analyzer/bmon net-analyzer/bwbar net-analyzer/bwm-ng 
-net-analyzer/ifstatus net-analyzer/iftop net-analyzer/ipband  
 net-analyzer/nethogs net-analyzer/ngrep net-analyzer/nmap net-analyzer/speedtest-cli 
 net-dns/dnsmasq net-fs/sshfs net-im/discord-bin net-im/zoom net-irc/irssi net-irc/irssi-xmpp 
 net-mail/renattach net-mail/ripmime net-misc/autossh net-misc/drive net-misc/keychain 

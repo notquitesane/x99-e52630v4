@@ -40,3 +40,4 @@ nullmail:!::
 crontab:!::
 libreoffice:!::
 lpadmin:!::
+vboxusers:!::
