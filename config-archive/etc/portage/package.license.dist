@@ -1,0 +1,11 @@
+=app-arch/unrar-7.1.5 unRAR
+=sys-kernel/linux-firmware-20250311 linux-fw-redistributable
+>=app-text/agrep-2.04-r2 AGREP
+>=sys-firmware/intel-microcode-20250211_p20250211 intel-ucode
+app-arch/rar RAR
+app-emulation/virtualbox PUEL
+app-vim/* vim.org
+www-client/opera OPERA-2014
+www-client/vivaldi Vivaldi
+# required by games-misc/funny-manpages (argument)
+>=games-misc/funny-manpages-2.3 freedist
