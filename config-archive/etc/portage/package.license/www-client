@@ -6,3 +6,5 @@ www-client/vivaldi Vivaldi
 =app-arch/unrar-7.1.5 unRAR
 # required by sys-firmware/intel-microcode (argument)
 >=sys-firmware/intel-microcode-20250211_p20250211 intel-ucode
+# required by app-vim/colorschemes (argument)
+app-vim/* vim.org
