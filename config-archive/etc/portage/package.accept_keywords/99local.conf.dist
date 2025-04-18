@@ -20,3 +20,5 @@
 =sys-kernel/zen-sources-6.13.8 ~amd64
 # required by app-officeext/languagetool (argument)
 =app-officeext/languagetool-6.4 ~amd64
+# required by app-portage/gentmaint (argument)
+=app-portage/gentmaint-0.4.4 ~amd64
