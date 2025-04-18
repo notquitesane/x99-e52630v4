@@ -7,3 +7,5 @@ app-emulation/virtualbox PUEL
 app-vim/* vim.org
 www-client/opera OPERA-2014
 www-client/vivaldi Vivaldi
+# required by games-misc/funny-manpages (argument)
+>=games-misc/funny-manpages-2.3 freedist
