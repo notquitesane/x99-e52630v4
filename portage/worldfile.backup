@@ -1,10 +1,5 @@
 app-admin/usbview  
-app-emulation/virtualbox app-emulation/x48 app-forensics/chkrootkit app-forensics/cmospwd 
-app-forensics/rkhunter app-misc/actkbd app-misc/asciinema app-misc/away app-misc/boxes 
-app-misc/chkcrontab app-misc/color app-misc/delay app-misc/detox app-misc/fsniper  
-app-misc/grc app-misc/jail app-misc/leave app-misc/reptyr app-misc/resolve-march-native 
-app-office/dia app-office/dia2code app-office/libreoffice app-officeext/languagetool 
-app-officeext/ooo2gd app-portage/cpuid2cpuflags app-portage/elogv app-portage/elogviewer 
+app-emulation/virtualbox 
 app-portage/gentmaint app-portage/logclean app-portage/portage-bashrc-mv app-portage/portconf 
 app-portage/portpeek app-portage/showem app-portage/world-mv app-shells/auto-fu-zsh 
 app-shells/fast-syntax-highlighting app-shells/gentoo-zsh-completions app-shells/set_prompt 

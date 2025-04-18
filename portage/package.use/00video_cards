@@ -8,3 +8,8 @@ dev-libs/libdbusmenu gtk3
 virtual/imagemagick-tools png svg
 sys-process/lsof rpc
 dev-libs/xmlsec nss
+media-libs/harfbuzz icu
+app-text/xmlto text
+app-office/libreoffice java
+dev-python/pyqt5 gui widgets
+sys-kernel/installkernel dracut grub
