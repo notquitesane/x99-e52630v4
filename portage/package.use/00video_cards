@@ -1,0 +1,4 @@
+*/* VIDEO_CARDS: amdgpu radeon radeonsi fbdev
+www-client/elinks gpm
+media-libs/libglvnd X
+x11-libs/motif xft
