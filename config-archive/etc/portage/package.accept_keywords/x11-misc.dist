@@ -6,3 +6,5 @@
 =games-misc/wtf-20230906 ~amd64
 # required by games-strategy/dopewars (argument)
 =games-strategy/dopewars-1.6.2-r1 ~amd64
+# required by media-gfx/cura (argument)
+=media-gfx/cura-5.9.0 ~amd64
