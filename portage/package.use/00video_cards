@@ -5,3 +5,4 @@ x11-libs/motif xft
 dev-lang/python tk
 dev-dotnet/libgdiplus cairo
 dev-libs/libdbusmenu gtk3
+virtual/imagemagick-tools png svg
