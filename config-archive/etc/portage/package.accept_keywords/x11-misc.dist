@@ -26,3 +26,5 @@
 =net-mail/renattach-1.2.4-r1 ~amd64
 # required by drive (argument)
 =dev-python/drive-0.4.5 ~amd64
+# required by net-misc/lanmap (argument)
+=net-misc/lanmap-81-r3 ~amd64
