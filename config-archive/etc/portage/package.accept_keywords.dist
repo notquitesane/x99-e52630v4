@@ -1,0 +1,14 @@
+=app-officeext/languagetool-6.4 ~amd64
+=app-portage/gentmaint-0.4.4 ~amd64
+=app-portage/showem-1.0.6 ~amd64
+=app-shells/thefuck-3.32-r2 ~amd64
+=games-misc/fortune-mod-bofh-excuses-1.2-r1 ~amd64
+=games-misc/fortune-mod-kernelcookies-9 ~amd64
+=games-misc/fortune-mod-taow-1.0 ~amd64
+=sys-kernel/zen-sources-6.13.8 ~amd64
+=x11-misc/safeeyes-2.2.3-r1 ~amd64
+=x11-misc/xcape-1.2-r1 ~amd64
+=x11-misc/xidle-26052015-r1 ~amd64
+=x11-misc/xprintidle-2.1 ~amd64
+# required by app-portage/portconf (argument)
+=app-portage/portconf-9999-r1 **
