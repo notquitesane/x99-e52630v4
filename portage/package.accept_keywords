@@ -33,3 +33,5 @@
 =games-misc/fortune-mod-osfortune-1 ~amd64
 # required by games-misc/fortune-mod-tao (argument)
 =games-misc/fortune-mod-tao-1-r1 ~amd64
+# required by games-misc/funny-manpages (argument)
+=games-misc/funny-manpages-2.3 ~amd64
