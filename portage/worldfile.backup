@@ -1,6 +1,2 @@
 app-admin/usbview app-emulation/virtualbox mail-filter/bmf drive net-misc/sb-hosts
  
-sys-process/wait_on_pid sys-process/watchpid www-client/brave-bin www-misc/monitorix 
-www-misc/profile-sync-daemon::gentoo x11-apps/scripts x11-apps/showfont x11-apps/xbacklight 
-x11-apps/xbiff x11-apps/xconsole x11-apps/xev x11-apps/xfontsel x11-apps/xhost x11-apps/xkill 
-x11-apps/xlsatoms x11-apps/xlsclients x11-misc/imwheel x11-misc/lsw x11-misc/qcomicbook 

@@ -1,1 +1,3 @@
+media-libs/gd fontconfig truetype
+media-libs/gegl cairo
 media-libs/harfbuzz icu

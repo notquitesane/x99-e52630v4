@@ -47,3 +47,5 @@ dnsmasq:x:275:
 ngrep:x:185:
 polkitd:x:102:
 locate:x:245:
+monitorix:x:401:
+ntp:x:123:

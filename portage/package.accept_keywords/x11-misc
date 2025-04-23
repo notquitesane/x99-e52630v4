@@ -2,36 +2,3 @@
 =x11-misc/xcape-1.2-r1 ~amd64
 =x11-misc/xidle-26052015-r1 ~amd64
 =x11-misc/xprintidle-2.1 ~amd64
-# required by games-misc/wtf (argument)
-=games-misc/wtf-20230906 ~amd64
-# required by games-strategy/dopewars (argument)
-=games-strategy/dopewars-1.6.2-r1 ~amd64
-# required by media-gfx/cura (argument)
-=media-gfx/cura-5.9.0 ~amd64
-# required by media-gfx/jpegtoavi (argument)
-=media-gfx/jpegtoavi-1.5 ~amd64
-# required by media-gfx/qiv (argument)
-=media-gfx/qiv-2.3.3 ~amd64
-# required by media-gfx/termtosvg (argument)
-=media-gfx/termtosvg-1.1.0-r1 ~amd64
-# required by net-analyzer/ipband (argument)
-=net-analyzer/ipband-0.8.1-r2 ~amd64
-# required by dev-python/mps-youtube (argument)
-=dev-python/mps-youtube-0.2.8 ~amd64
-# required by net-im/zoom (argument)
-=net-im/zoom-6.4.3.827 ~amd64
-# required by net-irc/irssi-xmpp (argument)
-=net-irc/irssi-xmpp-0.54-r1 ~amd64
-# required by net-mail/renattach (argument)
-=net-mail/renattach-1.2.4-r1 ~amd64
-# required by drive (argument)
-=dev-python/drive-0.4.5 ~amd64
-# required by net-misc/lanmap (argument)
-=net-misc/lanmap-81-r3 ~amd64
-# required by net-misc/sb-hosts (argument)
-=net-misc/sb-hosts-9999 **
-# required by sys-fs/archivemount (argument)
-=sys-fs/archivemount-0.9.1 ~amd64
-# required by www-client/brave-bin-1.77.100::djs_overlay
-# required by www-client/brave-bin (argument)
-=dev-libs/libpthread-stubs-0.5 **

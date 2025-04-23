@@ -1,5 +1,1 @@
 x11-libs/motif xft
-app-text/poppler cairo
-media-libs/gegl cairo
-dev-libs/boost icu
-media-libs/gd fontconfig truetype

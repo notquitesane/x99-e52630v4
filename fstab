@@ -1,21 +1,14 @@
-# /etc/fstab: static file system information.
-#
-# See the manpage fstab(5) for more information.
-#
-# NOTE: The root filesystem should have a pass number of either 0 or 1.
-#       All other filesystems should have a pass number of 0 or greater than 1.
-#
-# NOTE: Even though we list ext4 as the type here, it will work with ext2/ext3
-#       filesystems.  This just tells the kernel to use the ext4 driver.
-#
-# NOTE: You can use full paths to devices like /dev/sda3, but it is often
-#       more reliable to use filesystem labels or UUIDs. See your filesystem
-#       documentation for details on setting a label. To obtain the UUID, use
-#       the blkid(8) command.
+# UUID=cc64a290-c793-4e4a-b38c-181faab160b2
+/dev/nvme0n1p2      	/         	f2fs      	rw,relatime,lazytime,background_gc=on,nogc_merge,discard,discard_unit=block,inline_xattr,inline_data,inline_dentry,flush_merge,barrier,extent_cache,mode=adaptive,active_logs=6,alloc_mode=default,checkpoint_merge,fsync_mode=posix,memory=normal,errors=continue	0 1
 
-# <fs>			<mountpoint>	<type>		<opts>		<dump> <pass>
+10.255.0.17:/export/distfiles	/var/cache/distfiles	nfs       	rw,vers=3,rsize=1048576,wsize=1048576,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=10.255.0.17,mountvers=3,mountport=48227,mountproto=udp,local_lock=none,addr=10.255.0.17	0 0
 
-#LABEL=boot		/boot		ext4		defaults	1 2
-#UUID=58e72203-57d1-4497-81ad-97655bd56494		/		xfs		defaults		0 1
-#LABEL=swap		none		swap		sw		0 0
-#/dev/cdrom		/mnt/cdrom	auto		noauto,ro	0 0
+10.255.0.17:/export/binpkgs	/var/cache/binpkgs	nfs       	rw,vers=3,rsize=1048576,wsize=1048576,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=10.255.0.17,mountvers=3,mountport=48227,mountproto=udp,local_lock=none,addr=10.255.0.17	0 0
+
+# UUID=7367-466B
+/dev/nvme0n1p1      	/efi      	vfat      	rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=ascii,shortname=mixed,errors=remount-ro	0 2
+
+# UUID=343827be-c6fd-4d5a-98ac-bdd447d789a1
+/dev/nvme0n1p3      	none      	swap      	defaults  	0 0
+
+/tmp						/dev/shm		tmpfs		nodev,nosuid,noexec	0 0

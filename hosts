@@ -14,8 +14,10 @@
 #
 
 # IPv4 and IPv6 localhost aliases
-127.0.0.1	localhost
-::1		localhost
+127.0.0.1	lianhua.asisee.it	lianhua		localhost	
+::1		lianhua.asisee.it       lianhua         localhost
+
+10.255.0.17	mavis.asisee.it		mavis
 
 #
 # Imaginary network.
