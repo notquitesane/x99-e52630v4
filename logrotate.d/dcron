@@ -1,1 +1,8 @@
-# empty file because --include-config=n when `quickpkg` was used
+/var/log/crond.log {
+   sharedscripts
+   copytruncate
+   missingok
+   postrotate
+	   kill -HUP `cat /var/run/crond.pid`
+   endscript
+}
