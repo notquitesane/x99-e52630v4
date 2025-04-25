@@ -1,14 +1,13 @@
-# UUID=cc64a290-c793-4e4a-b38c-181faab160b2
-/dev/nvme0n1p2      	/         	f2fs      	rw,relatime,lazytime,background_gc=on,nogc_merge,discard,discard_unit=block,inline_xattr,inline_data,inline_dentry,flush_merge,barrier,extent_cache,mode=adaptive,active_logs=6,alloc_mode=default,checkpoint_merge,fsync_mode=posix,memory=normal,errors=continue	0 1
+/dev/nvme0n1p2      		/         		f2fs      	defaults		0 1
 
-10.255.0.17:/export/distfiles	/var/cache/distfiles	nfs       	rw,vers=3,rsize=1048576,wsize=1048576,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=10.255.0.17,mountvers=3,mountport=48227,mountproto=udp,local_lock=none,addr=10.255.0.17	0 0
+10.255.0.17:/export/distfiles	/var/cache/distfiles	nfs     	defaults		0 0
 
-10.255.0.17:/export/binpkgs	/var/cache/binpkgs	nfs       	rw,vers=3,rsize=1048576,wsize=1048576,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=10.255.0.17,mountvers=3,mountport=48227,mountproto=udp,local_lock=none,addr=10.255.0.17	0 0
+10.255.0.17:/export/binpkgs	/var/cache/binpkgs	nfs       	defaults		0 0
 
-# UUID=7367-466B
-/dev/nvme0n1p1      	/efi      	vfat      	rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=ascii,shortname=mixed,errors=remount-ro	0 2
+/dev/nvme0n1p1   	   	/efi      		vfat      	defaults,noauto 	0 2
 
-# UUID=343827be-c6fd-4d5a-98ac-bdd447d789a1
-/dev/nvme0n1p3      	none      	swap      	defaults  	0 0
+/dev/nvme0n1p3      		none      		swap      	defaults  		0 0
 
-/tmp						/dev/shm		tmpfs		nodev,nosuid,noexec	0 0
+/tmp				/dev/shm		tmpfs		nodev,nosuid,noexec	0 0
+
+10.255.0.17:/export/home	/home			nfs		defaults		0 0

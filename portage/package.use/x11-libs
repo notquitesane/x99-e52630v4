@@ -1,2 +1,8 @@
 x11-libs/motif xft
-sys-kernel/linux-firmware savedconfig
+sys-kernel/linux-firmware dist-kernel savedconfig
+sys-boot/grub GRUB_PLATFORMS: -pc
+sys-boot/grub mount -themes
+app-misc/mc -X
+sys-auth/pambase elogind
+x11-base/xorg-drivers VIDEO_CARDS: -dummy -intel -nouveau vesa
+x11-base/xorg-drivers INPUT_DEVICES: evdev
