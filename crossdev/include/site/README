@@ -1,1 +1,2 @@
-# empty file because --include-config=n when `quickpkg` was used
+Drop here your local overrides for autoconf cache variables.
+See /usr/share/config.site.d/80crossdev.conf for details.

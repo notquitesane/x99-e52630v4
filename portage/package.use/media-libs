@@ -1,3 +1,8 @@
 media-libs/gd fontconfig truetype
 media-libs/gegl cairo
 media-libs/harfbuzz icu
+media-libs/imlib2 X
+media-libs/libepoxy X
+media-libs/libglvnd X
+media-libs/mesa X
+media-libs/vulkan-loader X

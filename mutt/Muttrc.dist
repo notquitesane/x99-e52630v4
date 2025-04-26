@@ -4862,11 +4862,11 @@ attachments   -I message/external-body
 # See the section ``MIME Multipart/Alternative'' (alternative-order).
 # 
 # 
-# set sendmail="/usr/sbin/sendmail -oem -oi"
+# set sendmail="/usr/bin/sendmail -oem -oi"
 #
 # Name: sendmail
 # Type: path
-# Default: "/usr/sbin/sendmail -oem -oi"
+# Default: "/usr/bin/sendmail -oem -oi"
 # 
 # 
 # Specifies the program and arguments used to deliver mail sent by Mutt.

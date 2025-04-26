@@ -1,9 +1,4 @@
-x11-libs/motif xft
-media-video/mpv X
-x11-libs/gtk+ X
-dev-qt/qtgui X
-gui-libs/gtk X
-dev-cpp/cairomm X
-dev-python/pycairo X
 x11-libs/cairo X aqua
-media-libs/libepoxy X
+x11-libs/gtk+ X
+x11-libs/libxkbcommon X
+x11-libs/motif xft
