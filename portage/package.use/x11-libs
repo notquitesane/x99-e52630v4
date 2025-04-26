@@ -2,3 +2,4 @@ x11-libs/cairo X aqua
 x11-libs/gtk+ X
 x11-libs/libxkbcommon X
 x11-libs/motif xft
+media-fonts/corefonts X
