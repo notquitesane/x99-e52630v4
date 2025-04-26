@@ -1,8 +1,4 @@
 www-client/opera OPERA-2014
 www-client/vivaldi Vivaldi
-# required by media-gfx/xv (argument)
-=media-gfx/xv-6.0.1 xv
-# required by net-im/discord (argument)
->=net-im/discord-0.0.91 all-rights-reserved
-# required by net-im/zoom (argument)
->=net-im/zoom-6.4.3.827 all-rights-reserved
+# required by media-fonts/corefonts (argument)
+>=media-fonts/corefonts-1-r7 MSttfEULA
