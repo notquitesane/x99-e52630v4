@@ -1,2 +1,4 @@
 www-client/opera OPERA-2014
 www-client/vivaldi Vivaldi
+# required by media-fonts/corefonts (argument)
+>=media-fonts/corefonts-1-r7 MSttfEULA
