@@ -9,3 +9,4 @@
 	directory = /var/db/repos/pypi
 	directory = /var/db/repos/sevz
 	directory = /var/db/repos/djs_overlay
+	directory = /var/db/repos/amedeos
