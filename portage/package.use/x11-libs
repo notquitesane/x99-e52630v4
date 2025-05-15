@@ -7,3 +7,4 @@ app-vim/gundo PYTHON_SINGLE_TARGET: python3_12
 dev-qt/qttools opengl
 app-admin/sysstat dcron lm-sensors
 dev-util/perf doc numa
+media-fonts/powerline-symbols X
