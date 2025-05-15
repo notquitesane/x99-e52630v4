@@ -17,7 +17,7 @@ audio:x:18:
 cdrom:x:19:
 dialout:x:20:
 tape:x:26:root
-video:x:27:root
+video:x:27:root,nqs
 cdrw:x:80:
 usb:x:85:
 input:x:97:
