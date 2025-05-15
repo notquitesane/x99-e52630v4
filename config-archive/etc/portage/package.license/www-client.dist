@@ -1,4 +1,4 @@
 www-client/opera OPERA-2014
 www-client/vivaldi Vivaldi
-# required by media-fonts/corefonts (argument)
->=media-fonts/corefonts-1-r7 MSttfEULA
+# required by www-client/google-chrome (argument)
+>=www-client/google-chrome-136.0.7103.92 google-chrome
