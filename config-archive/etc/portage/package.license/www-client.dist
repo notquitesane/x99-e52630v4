@@ -4,3 +4,5 @@ www-client/vivaldi Vivaldi
 >=www-client/google-chrome-136.0.7103.92 google-chrome
 # required by comicbox (argument)
 >=dev-python/comicbox-2.0.0_alpha12 LGPL-3.0-only
+# required by dev-python/bidict (argument)
+>=dev-python/bidict-0.23.1 2.0 MPL
