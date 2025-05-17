@@ -12,3 +12,4 @@ app-admin/conky X extras ical
 app-admin/gkrellm lm-sensors
 dev-python/comicbox PYTHON_TARGETS: python3_12
 dev-python/ansicolors PYTHON_TARGETS: python3_12
+dev-python/bidict PYTHON_TARGETS: python3_12
