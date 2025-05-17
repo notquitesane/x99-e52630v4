@@ -8,3 +8,5 @@ dev-qt/qttools opengl
 app-admin/sysstat dcron lm-sensors
 dev-util/perf doc numa
 media-fonts/powerline-symbols X
+app-admin/conky X extras ical
+app-admin/gkrellm lm-sensors
