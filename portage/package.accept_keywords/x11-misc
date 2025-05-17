@@ -8,3 +8,5 @@
 =app-shells/powerline-2.8.4 ~amd64
 # required by cbview (argument)
 =app-misc/cbview-0.06-r2 ~amd64
+# required by comicbox (argument)
+=dev-python/comicbox-2.0.0_alpha12 ~amd64
