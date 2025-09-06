@@ -1,5 +1,5 @@
 #!/sbin/openrc-run
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2025 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 : CFGFILE=${CFGFILE:=/etc/mpd.conf}
@@ -14,7 +14,7 @@ get_config() {
 	x=$1
 	test -e ${CFGFILE} || return 1
 	sed -n \
-		-e '/^[ \t]*'${x}'/{s:^[ \t]*'${x}'[ \t]\+"\?\([^#"]\+\)[^"]*"\?$:\1: ; p }' \
+		-e '/^[ \t]*'${x}'/{s:^[ \t]*'${x}'[ \t]\+"\?\([^#"]\+\)[^"]*"\?$:\1: ; {p;q} }' \
 		${CFGFILE}
 }
 
@@ -31,19 +31,22 @@ description="Music Player Daemon"
 
 check_config() {
 	if [ -z "$(get_config pid_file)" ]; then
-		die "pid_file must be set in ${CFGFILE}!"
+		eerror "pid_file must be set in ${CFGFILE}!"
+		return 1
 	fi
 	if [ -z "$(get_config user)" ]; then
-		die "user must be set in ${CFGFILE}!"
+		eerror "user must be set in ${CFGFILE}!"
+		return 1
 	fi
 	if [ -z "$(get_config group)" ]; then
-		die "group must be set in ${CFGFILE}!"
+		eerror "group must be set in ${CFGFILE}!"
+		return 1
 	fi
 }
 
 start_pre() {
-	check_config
-	
+	check_config || return 1
+
 	local pid_dir="$(dirname "${pidfile}")"
 	checkpath -d -m 700 -o "${mpd_user}:${mpd_group}" "${pid_dir}"
 

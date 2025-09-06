@@ -3,3 +3,5 @@
 
 # for more info, see watchdog(8)
 WATCHDOG_OPTS=""
+
+max-temperature = 40
