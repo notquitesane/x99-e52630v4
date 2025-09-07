@@ -16,3 +16,5 @@
 =dev-python/bidict-0.23.1 ~amd64
 # required by =obs-studio-31.1.2 (argument)
 =media-video/obs-studio-31.1.2 ~amd64
+# required by =www-client/brave-bin-1.79.119 (argument)
+=www-client/brave-bin-1.79.119 ~amd64
