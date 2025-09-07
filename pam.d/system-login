@@ -12,3 +12,4 @@ session		include		system-auth
 session		optional	pam_motd.so motd=/etc/motd
 session		optional	pam_mail.so
 -session	optional	pam_elogind.so
+-session	optional	pam_openrc.so

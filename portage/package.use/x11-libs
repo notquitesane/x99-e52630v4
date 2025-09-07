@@ -3,7 +3,6 @@ x11-libs/gtk+ X
 x11-libs/libxkbcommon X
 x11-libs/motif xft
 x11-libs/wxGTK X opengl
-app-vim/gundo PYTHON_SINGLE_TARGET: python3_12
 dev-qt/qttools opengl
 app-admin/sysstat dcron lm-sensors
 dev-util/perf doc numa
@@ -13,3 +12,4 @@ app-admin/gkrellm lm-sensors
 dev-python/comicbox PYTHON_TARGETS: python3_12
 dev-python/ansicolors PYTHON_TARGETS: python3_12
 dev-python/bidict PYTHON_TARGETS: python3_12
+media-video/ffmpeg opus x264

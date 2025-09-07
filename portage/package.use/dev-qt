@@ -1,4 +1,4 @@
-dev-qt/qtbase X accessibility libproxy opengl vulkan wayland
+dev-qt/qtbase X accessibility evdev libproxy opengl vulkan wayland
 dev-qt/qtdeclarative accessibility opengl vulkan
 dev-qt/qtgui X vulkan
 dev-qt/qtmultimedia X opengl vulkan

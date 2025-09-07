@@ -28,6 +28,8 @@ genfun_set_win_title() {
 	# pane_title (#T). For graphical terminal emulators, it is normal for
 	# the title bar to be affected.
 	genfun_set_win_title() {
+		local _cwd
+
 		genfun_sanitise_cwd
 		printf '\033]0;%s@%s - %s\007' "${USER}" "${HOSTNAME%%.*}" "${_cwd}"
 	}
@@ -42,7 +44,7 @@ unset -v SHELL_SETS_TITLE
 # evidence that the sequence is supported and that the UTF-8 character encoding
 # is handled correctly. Quite rightly, this precludes many vintage terminals.
 case ${TERM} in
-	alacritty|foot*|tmux*)
+	alacritty*|contour|foot*|tmux*)
 		# The terminal emulator also supports XTWINOPS. If the PTY was
 		# created by sshd(8) then push the current window title to the
 		# stack and arrange for it to be popped upon exiting. Xterm also
