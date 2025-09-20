@@ -1,6 +1,6 @@
 #!/sbin/openrc-run
-# Copyright 1999-2022 Gentoo Authors
-# Distributed under the terms of the GNU General Public License, v2
+# Copyright 1999-2025 Gentoo Authors
+# Distributed under the terms of the GNU General Public License v2
 
 retry="TERM/5/TERM/5"
 
@@ -25,7 +25,7 @@ retry="TERM/5/TERM/5"
 # runlevel never gets changed to this runlevel. Along with the "a"
 # runlevel, the "once" key word means that startDM will only be
 # run when we specify it to run, thus eliminating respawning
-# startDM when "display-manager" is not added to the default 
+# startDM when "display-manager" is not added to the default
 # runlevel, as was done previously.
 #
 # This script then just calls "telinit a", and init will run
@@ -48,23 +48,22 @@ depend() {
 	# (#291269) Start after quota, since some dm need readable home
 	# (#390609) gdm-3 will fail when dbus is not running
 	# (#366753) starting keymaps after X causes problems
-	# (#768834) race condition with elogind
 	after bootmisc consolefont modules netmount
 	after readahead-list ypbind autofs openvpn gpm lircmd
 	after quota keymaps
-	after elogind
 	after sssd
 	before alsasound
 
 	# Start before GUI
-	use dbus xfs
+	# (#768834) race condition with elogind
+	use elogind dbus xfs
 }
 
 setup_dm() {
-	local MY_XDM
+	local MY_DM
 
-	MY_XDM=$(echo "${DISPLAYMANAGER}" | tr '[:upper:]' '[:lower:]')
-	case "${MY_XDM}" in
+	MY_DM=$(echo "${DISPLAYMANAGER}" | tr '[:upper:]' '[:lower:]')
+	case "${MY_DM}" in
 		kdm|kde)
 			command=/usr/bin/kdm
 			pidfile=/run/kdm.pid
@@ -114,13 +113,13 @@ setup_dm() {
 			;;
 		*)
 			# first find out if there is such executable
-			command="$(command -v ${MY_XDM} 2>/dev/null)"
-			pidfile="/run/${MY_XDM}.pid"
+			command="$(command -v ${MY_DM} 2>/dev/null)"
+			pidfile="/run/${MY_DM}.pid"
 
 			# warn user that they are doing sick things if the exe was not found
 			if [ -z "${command}" ]; then
-				eerror "ERROR: Your XDM value is invalid."
-				eerror "  No ${MY_XDM} executable could be found on your system."
+				eerror "ERROR: Your DISPLAYMANAGER value is invalid."
+				eerror "  No ${MY_DM} executable could be found on your system."
 			fi
 			;;
 	esac

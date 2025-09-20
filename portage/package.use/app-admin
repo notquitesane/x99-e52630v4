@@ -1,0 +1,3 @@
+app-admin/conky X extras ical
+app-admin/gkrellm lm-sensors
+app-admin/sysstat dcron lm-sensors

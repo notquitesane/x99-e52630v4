@@ -3,5 +3,6 @@ dev-qt/qtdeclarative accessibility opengl vulkan
 dev-qt/qtgui X vulkan
 dev-qt/qtmultimedia X opengl vulkan
 dev-qt/qtquick3d opengl vulkan
+dev-qt/qttools opengl
 dev-qt/qtwayland accessibility vulkan
 dev-qt/qtwebengine accessibility opengl
