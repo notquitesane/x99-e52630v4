@@ -1,2 +1,2 @@
-app-text/poppler cairo qt5
+app-text/poppler cairo qt5 -qt6
 app-text/xmlto text

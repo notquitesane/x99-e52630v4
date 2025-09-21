@@ -11,3 +11,5 @@
 	directory = /var/db/repos/djs_overlay
 	directory = /var/db/repos/amedeos
 	directory = /var/db/repos/jjakob
+	directory = /var/db/repos/another-brave-overlay
+	directory = /var/db/repos/guru
