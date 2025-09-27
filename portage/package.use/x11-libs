@@ -16,3 +16,7 @@ app-crypt/pinentry -qt6
 media-gfx/graphviz -qt6
 net-dns/avahi -qt6
 www-client/brave-browser -qt6
+dev-python/pillow tiff webp
+dev-cpp/gtkmm X
+media-gfx/qrencode png
+media-libs/tiff jpeg
