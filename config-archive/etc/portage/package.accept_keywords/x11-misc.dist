@@ -8,3 +8,5 @@
 # required by =www-client/brave-browser-nightly-1.85.6 (argument)
 # required by =www-client/brave-browser-nightly-1.85.4 (argument)
 =www-client/brave-browser-nightly-1.85.4 ~amd64
+# required by media-gfx/qiv (argument)
+=media-gfx/qiv-3.0.2 ~amd64
