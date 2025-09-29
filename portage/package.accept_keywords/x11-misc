@@ -12,3 +12,5 @@
 =media-gfx/qiv-3.0.2 ~amd64
 # required by net-im/zoom (argument)
 =net-im/zoom-6.6.0.4410 ~amd64
+# required by =www-client/palemoon-33.9.0.1::palemoon (argument)
+=www-client/palemoon-33.9.0.1 ~amd64
