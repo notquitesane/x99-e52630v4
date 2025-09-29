@@ -10,3 +10,5 @@
 =www-client/brave-browser-nightly-1.85.4 ~amd64
 # required by media-gfx/qiv (argument)
 =media-gfx/qiv-3.0.2 ~amd64
+# required by net-im/zoom (argument)
+=net-im/zoom-6.6.0.4410 ~amd64
