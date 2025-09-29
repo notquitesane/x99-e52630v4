@@ -20,3 +20,4 @@ dev-python/pillow tiff webp
 dev-cpp/gtkmm X
 media-gfx/qrencode png
 media-libs/tiff jpeg
+www-client/palemoon gtk2
