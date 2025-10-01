@@ -53,3 +53,4 @@ distcc:x:240:
 gkrellmd:x:221:
 avahi:x:61:
 netdev:x:64:
+plugdev:x:272:

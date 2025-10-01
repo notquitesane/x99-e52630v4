@@ -1,16 +1,1 @@
-dev-python/cython PYTHON_TARGETS: python3_12 -python3_13
-dev-python/dbus-python PYTHON_TARGETS: python3_12 -python3_13
-dev-python/decorator PYTHON_TARGETS: python3_12 -python3_13
-dev-python/distro PYTHON_TARGETS: python3_12 -python3_13
-dev-python/docutils PYTHON_TARGETS: python3_12 -python3_13
-dev-python/editables PYTHON_TARGETS: python3_12 -python3_13
-dev-python/ensurepip-pip PYTHON_TARGETS: python3_12 -python3_13
-dev-python/fastjsonschema PYTHON_TARGETS: python3_12 -python3_13
-dev-python/flit-core PYTHON_TARGETS: python3_12 -python3_13
-dev-python/gpep517 PYTHON_TARGETS: python3_12 -python3_13
-dev-python/hatch-fancy-pypi-readme PYTHON_TARGETS: python3_12 -python3_13
-dev-python/hatch-vcs PYTHON_TARGETS: python3_12 -python3_13
-dev-python/hatchling PYTHON_TARGETS: python3_12 -python3_13
-dev-python/html2text PYTHON_TARGETS: python3_12 -python3_13
-dev-python/html5lib PYTHON_TARGETS: python3_12 -python3_13
-dev-python/idna PYTHON_TARGETS: python3_12 -python3_13
+dev-python/pyqt6 opengl quick svg webchannel
