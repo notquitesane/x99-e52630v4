@@ -3,6 +3,3 @@ x11-libs/gtk+ X wayland
 x11-libs/libxkbcommon X
 x11-libs/motif xft
 x11-libs/wxGTK X gstreamer libnotify opengl sdl tiff
-dev-python/setuptools PYTHON_TARGETS: python3_12
-dev-python/packaging PYTHON_TARGETS: python3_12
-dev-python/platformdirs PYTHON_TARGETS: python3_12
