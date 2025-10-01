@@ -2,29 +2,5 @@
 =x11-misc/xcape-1.2-r1 ~amd64
 =x11-misc/xidle-26052015-r1 ~amd64
 =x11-misc/xprintidle-2.1 ~amd64
-# required by =sci-electronics/qelectrotech-0.90_pre20250820 (argument)
-# required by =sci-electronics/qelectrotech-0.100_p20231120 (argument)
-=sci-electronics/qelectrotech-0.100_p20231120 ~amd64
-# required by =www-client/brave-browser-nightly-1.85.6 (argument)
-# required by =www-client/brave-browser-nightly-1.85.4 (argument)
-=www-client/brave-browser-nightly-1.85.4 ~amd64
-# required by media-gfx/qiv (argument)
-=media-gfx/qiv-3.0.2 ~amd64
-# required by net-im/zoom (argument)
-=net-im/zoom-6.6.0.4410 ~amd64
-# required by =www-client/palemoon-33.9.0.1::palemoon (argument)
-=www-client/palemoon-33.9.0.1 ~amd64
-# required by media-gfx/yacreader-9.15.0::anomen
-# required by media-gfx/yacreader (argument)
-=app-arch/unarr-1.1.1 ~amd64
-# required by media-gfx/yacreader (argument)
-=media-gfx/yacreader-9.15.0 ~amd64
-# required by =dev-python/pyqt6-6.9.1::pypi (argument)
-=dev-python/pyqt6-6.9.1 ~amd64
-# required by dev-python/pyqt6-6.9.1::pypi
-# required by =dev-python/pyqt6-6.9.1::pypi (argument)
-=dev-python/PyQt6-Qt6-6.9.2 ~amd64
-# required by dev-python/PyQt6-Qt6-6.9.2::pypi
-# required by dev-python/pyqt6-6.9.1::pypi
-# required by =dev-python/pyqt6-6.9.1::pypi (argument)
-=virtual/allow-pypi-wheels-0 ~amd64
+# required by =net-misc/yt-dlp-9999 (argument)
+=net-misc/yt-dlp-9999 **
