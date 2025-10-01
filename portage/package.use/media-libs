@@ -1,10 +1,12 @@
 media-libs/gd fontconfig truetype
 media-libs/gegl cairo
+media-libs/gst-plugins-base X
 media-libs/imlib2 X
 media-libs/libepoxy X
 media-libs/libglvnd X
 media-libs/libvpx postproc
 media-libs/mesa X wayland
 media-libs/opencv contrib contribdnn features2d -qt6
+media-libs/tiff jpeg
 media-libs/vigra openexr
 media-libs/vulkan-loader X

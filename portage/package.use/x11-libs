@@ -3,22 +3,6 @@ x11-libs/gtk+ X wayland
 x11-libs/libxkbcommon X
 x11-libs/motif xft
 x11-libs/wxGTK X gstreamer libnotify opengl sdl tiff
-sci-electronics/kicad PYTHON_SINGLE_TARGET: python3_12
-dev-libs/boost python
-dev-python/wxpython PYTHON_TARGETS: python3_12
-dev-python/cython PYTHON_TARGETS: python3_12
-media-libs/gst-plugins-base X
-sys-auth/polkit-qt qt5
-kde-frameworks/kauth -policykit
-sys-auth/elogind -policykit
-sys-power/upower -policykit
-app-crypt/pinentry -qt6
-media-gfx/graphviz -qt6
-net-dns/avahi -qt6
-www-client/brave-browser -qt6
-dev-python/pillow tiff truetype webp
-dev-cpp/gtkmm X
-media-gfx/qrencode png
-media-libs/tiff jpeg
-www-client/palemoon gtk2
-app-text/calibre -udisks unrar
+dev-python/setuptools PYTHON_TARGETS: python3_12
+dev-python/packaging PYTHON_TARGETS: python3_12
+dev-python/platformdirs PYTHON_TARGETS: python3_12

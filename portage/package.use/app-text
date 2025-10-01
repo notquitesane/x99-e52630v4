@@ -1,2 +1,3 @@
+app-text/calibre -udisks unrar
 app-text/poppler cairo qt5 -qt6
 app-text/xmlto text

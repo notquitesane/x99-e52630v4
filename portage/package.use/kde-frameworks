@@ -1,1 +1,2 @@
+kde-frameworks/kauth -policykit
 kde-frameworks/kwindowsystem X wayland

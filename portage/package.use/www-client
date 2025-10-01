@@ -1,1 +1,3 @@
+www-client/brave-browser -qt6
 www-client/elinks ftp gpm
+www-client/palemoon gtk2

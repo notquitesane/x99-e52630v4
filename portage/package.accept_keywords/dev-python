@@ -1,2 +1,4 @@
+=dev-python/PyQt6-Qt6-6.9.2::pypi ~amd64
 =dev-python/ansicolors-1.1.8 ~amd64
 =dev-python/bidict-0.23.1 ~amd64
+=dev-python/pyqt6-6.9.1::pypi ~amd64
