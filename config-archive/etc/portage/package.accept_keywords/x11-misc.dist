@@ -6,3 +6,5 @@
 =net-misc/yt-dlp-9999 **
 # required by sys-apps/ckbcomp (argument)
 =sys-apps/ckbcomp-1.230 ~amd64
+# required by =x11-misc/xkeyboard-config-9999 (argument)
+=x11-misc/xkeyboard-config-9999 **
