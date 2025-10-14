@@ -1,10 +1,8 @@
-=x11-misc/safeeyes-2.2.3-r1 ~amd64
-=x11-misc/xcape-1.2-r1 ~amd64
-=x11-misc/xidle-26052015-r1 ~amd64
-=x11-misc/xprintidle-2.1 ~amd64
+x11-misc/safeeyes ~amd64
+x11-misc/xcape ~amd64
+x11-misc/xidle ~amd64
+x11-misc/xprintidle ~amd64
 # required by =net-misc/yt-dlp-9999 (argument)
 =net-misc/yt-dlp-9999 **
 # required by sys-apps/ckbcomp (argument)
-=sys-apps/ckbcomp-1.230 ~amd64
-# required by =x11-misc/xkeyboard-config-9999 (argument)
-=x11-misc/xkeyboard-config-9999 **
+sys-apps/ckbcomp ~amd64
