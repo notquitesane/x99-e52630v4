@@ -1,0 +1,5 @@
+#!/bin/sh
+# Wait up to 10 seconds for NFS server, then retry mounts
+sleep 10
+mount -a -t nfs
+
