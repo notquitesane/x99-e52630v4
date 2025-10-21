@@ -6,3 +6,5 @@ x11-misc/xprintidle ~amd64
 =net-misc/yt-dlp-9999 **
 # required by sys-apps/ckbcomp (argument)
 sys-apps/ckbcomp ~amd64
+# required by pysolfc (argument)
+=games-board/pysolfc-3.4.1 ~amd64
