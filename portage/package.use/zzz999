@@ -1,2 +1,3 @@
 dev-python/pyqt6 opengl quick svg webchannel
 media-libs/freetype harfbuzz
+net-libs/webkit-gtk X
