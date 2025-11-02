@@ -10,3 +10,8 @@ sys-apps/ckbcomp ~amd64
 =games-board/pysolfc-3.4.1 ~amd64
 # required by zen-bin (argument)
 =www-client/zen-bin-1.16.4b ~amd64
+# required by dev-python/sigal-2.5::pypi
+# required by sigal (argument)
+=dev-python/pilkit-3.0 ~amd64
+# required by sigal (argument)
+=dev-python/sigal-2.5 ~amd64
