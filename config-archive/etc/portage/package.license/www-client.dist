@@ -1,6 +1,5 @@
 >=www-client/google-chrome-136.0.7103.92 google-chrome
 www-client/opera OPERA-2014
 www-client/vivaldi Vivaldi
-# required by dev-python/pyqt6-6.9.1::pypi
-# required by =dev-python/pyqt6-6.9.1::pypi (argument)
->=dev-python/PyQt6-Qt6-6.9.2 LGPL v3
+# required by genymotion-bin (argument)
+>=app-emulation/genymotion-bin-3.7.1 genymotion
