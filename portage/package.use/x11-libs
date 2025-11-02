@@ -2,4 +2,4 @@ x11-libs/cairo X aqua
 x11-libs/gtk+ X wayland
 x11-libs/libxkbcommon X
 x11-libs/motif xft
-x11-libs/wxGTK X gstreamer libnotify opengl sdl tiff
+x11-libs/wxGTK X gstreamer libnotify opengl sdl tiff webkit

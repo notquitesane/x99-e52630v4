@@ -1,6 +1,6 @@
-config_p5p1="dhcp"
+#config_p5p1="dhcp"
 
-#config_p5p1="10.255.0.110"
-#routes_p5p1="default via 10.255.0.1"
-#dns_servers_p5p1="1.1.1.1 8.8.8.8"
+config_p5p1="10.255.0.25/24"
+routes_p5p1="default via 10.255.0.1"
+dns_servers_p5p1="1.1.1.1 8.8.8.8"
 
