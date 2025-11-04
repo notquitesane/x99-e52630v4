@@ -21,3 +21,5 @@ sys-apps/ckbcomp ~amd64
 =app-containers/waydroid-1.5.4 ~amd64
 # required by genymotion-bin (argument)
 =app-emulation/genymotion-bin-3.7.1 ~amd64
+# required by =media-gfx/prusaslicer-9999 (argument)
+=media-gfx/prusaslicer-9999 **
