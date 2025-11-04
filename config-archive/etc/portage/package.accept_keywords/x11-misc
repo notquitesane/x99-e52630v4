@@ -19,3 +19,5 @@ sys-apps/ckbcomp ~amd64
 =dev-python/pyclip-0.7.0-r2 ~amd64
 # required by =app-containers/waydroid-1.5.4::guru (argument)
 =app-containers/waydroid-1.5.4 ~amd64
+# required by genymotion-bin (argument)
+=app-emulation/genymotion-bin-3.7.1 ~amd64
