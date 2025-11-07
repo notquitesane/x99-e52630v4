@@ -1,4 +1,4 @@
-=app-portage/gentmaint-0.4.4 ~amd64
-=app-portage/golop-0.2.1-r1 ~amd64
-=app-portage/portconf-9999-r1 **
-=app-portage/showem-1.0.6 ~amd64
+app-portage/gentmaint ~amd64
+app-portage/golop ~amd64
+app-portage/portconf **
+app-portage/showem ~amd64

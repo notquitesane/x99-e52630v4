@@ -1,2 +1,2 @@
-=net-misc/lanmap-81-r3 ~amd64
-=net-misc/sb-hosts-9999 **
+net-misc/lanmap ~amd64
+net-misc/sb-hosts **

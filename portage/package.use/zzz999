@@ -1,9 +1,0 @@
-dev-python/pyqt6 opengl quick svg webchannel
-media-libs/freetype harfbuzz
-net-libs/webkit-gtk X
-media-libs/qhull static-libs
-media-gfx/imagemagick svg xml
-xfce-base/libxfce4ui X
-xfce-base/xfce4-panel X
-xfce-base/libxfce4windowing X
-media-libs/libsdl2 X

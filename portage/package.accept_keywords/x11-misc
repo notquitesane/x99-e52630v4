@@ -2,24 +2,3 @@ x11-misc/safeeyes ~amd64
 x11-misc/xcape ~amd64
 x11-misc/xidle ~amd64
 x11-misc/xprintidle ~amd64
-# required by =net-misc/yt-dlp-9999 (argument)
-=net-misc/yt-dlp-9999 **
-# required by sys-apps/ckbcomp (argument)
-sys-apps/ckbcomp ~amd64
-# required by pysolfc (argument)
-=games-board/pysolfc-3.4.1 ~amd64
-# required by zen-bin (argument)
-=www-client/zen-bin-1.16.4b ~amd64
-# required by dev-python/sigal-2.5::pypi
-# required by sigal (argument)
-=dev-python/pilkit-3.0 ~amd64
-# required by sigal (argument)
-=dev-python/sigal-2.5 ~amd64
-# required by =dev-python/pyclip-0.7.0-r2::guru (argument)
-=dev-python/pyclip-0.7.0-r2 ~amd64
-# required by =app-containers/waydroid-1.5.4::guru (argument)
-=app-containers/waydroid-1.5.4 ~amd64
-# required by genymotion-bin (argument)
-=app-emulation/genymotion-bin-3.7.1 ~amd64
-# required by =media-gfx/prusaslicer-9999 (argument)
-=media-gfx/prusaslicer-9999 **

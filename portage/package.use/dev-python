@@ -1,3 +1,4 @@
 dev-python/pillow tiff tk truetype webp
 dev-python/pycairo X
 dev-python/pyqt5 gui widgets
+dev-python/pyqt6 opengl quick svg webchannel

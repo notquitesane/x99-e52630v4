@@ -1,5 +1,3 @@
-=media-gfx/cura-5.9.0 ~amd64
-=media-gfx/jpegtoavi-1.5 ~amd64
-=media-gfx/qiv-3.0.2 ~amd64
-=media-gfx/termtosvg-1.1.0-r1 ~amd64
-=media-gfx/yacreader-9.15.0 ~amd64
+media-gfx/jpegtoavi ~amd64
+media-gfx/qiv ~amd64
+media-gfx/yacreader ~amd64

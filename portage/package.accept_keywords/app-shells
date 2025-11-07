@@ -1,2 +1,2 @@
-=app-shells/powerline-2.8.4 ~amd64
-=app-shells/thefuck-3.32-r2 ~amd64
+app-shells/powerline ~amd64
+app-shells/thefuck ~amd64

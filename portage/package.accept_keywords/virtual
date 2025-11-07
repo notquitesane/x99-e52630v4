@@ -1,1 +1,1 @@
-=virtual/allow-pypi-wheels-0::pypi ~amd64
+virtual/allow-pypi-wheels::pypi ~amd64
