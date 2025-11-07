@@ -35,7 +35,7 @@ mail:x:12:
 messagebus:x:101:
 tss:x:59:
 sagan:x:317:
-cron:x:16:
+cron:x:16:nqs
 nullmail:x:88:
 crontab:x:460:
 libreoffice:x:512:
@@ -54,3 +54,5 @@ gkrellmd:x:221:
 avahi:x:61:
 netdev:x:64:
 plugdev:x:272:
+flatpak:x:313:
+pipewire:x:509:

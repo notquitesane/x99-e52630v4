@@ -40,7 +40,7 @@ nullmail:x:88:
 crontab:x:460:
 libreoffice:x:512:
 lpadmin:x:106:
-vboxusers:x:304:
+vboxusers:x:304:nqs
 arpwatch:x:170:
 openvpn:x:394:
 dnsmasq:x:275:
@@ -54,3 +54,5 @@ gkrellmd:x:221:
 avahi:x:61:
 netdev:x:64:
 plugdev:x:272:
+flatpak:x:313:
+pipewire:x:509:
