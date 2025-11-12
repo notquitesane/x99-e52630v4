@@ -15,3 +15,4 @@
 	directory = /var/db/repos/guru
 	directory = /var/db/repos/palemoon
 	directory = /var/db/repos/anomen
+	directory = /var/db/repos/sft
