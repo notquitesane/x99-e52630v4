@@ -17,7 +17,7 @@ audio:x:18:
 cdrom:x:19:
 dialout:x:20:
 tape:x:26:root
-video:x:27:root,nqs
+video:x:27:root,nqs,sddm
 cdrw:x:80:
 usb:x:85:
 input:x:97:
@@ -56,3 +56,7 @@ netdev:x:64:
 plugdev:x:272:
 flatpak:x:313:
 pipewire:x:509:
+shadow:x:42:
+sddm:x:219:
+jobserver:x:556:portage
+cuse:x:554:

@@ -1,6 +1,6 @@
 media-libs/freetype harfbuzz
 media-libs/gd fontconfig truetype
-media-libs/gegl cairo
+media-libs/gegl cairo introspection lcms
 media-libs/gst-plugins-base X opengl
 media-libs/imlib2 X
 media-libs/libepoxy X

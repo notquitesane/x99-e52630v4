@@ -6,13 +6,13 @@
 
 /tmp				/dev/shm		tmpfs		nodev,nosuid,noexec	0 0
 
-10.255.0.17:/export/distfiles   /var/cache/distfiles	nfs  		noauto,_netdev  	0 0
+10.255.0.17:/export/distfiles   /var/cache/distfiles	nfs  		_netdev 	 	0 0
 
-10.255.0.17:/export/binpkgs     /var/cache/binpkgs	nfs  		noauto,_netdev  	0 0
+10.255.0.17:/export/binpkgs     /var/cache/binpkgs	nfs  		_netdev		  	0 0
 
-10.255.0.17:/export/home        /home                 	nfs  		noauto,_netdev  	0 0
+10.255.0.17:/export/home        /home                 	nfs  		_netdev		  	0 0
 
-10.255.0.17:/export/media       /media                	nfs  		noauto,_netdev  	0 0
+10.255.0.17:/export/media       /media                	nfs  		_netdev  		0 0
 
 
 
