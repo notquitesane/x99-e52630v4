@@ -5,3 +5,5 @@
 =dev-python/python-git-wrapper-0.9.0_p2 ~amd64
 # required by cli-calc (argument)
 =dev-python/cli-calc-0.3.8 ~amd64
+# required by =games-util/input-remapper-9999 (argument)
+=games-util/input-remapper-9999 **
