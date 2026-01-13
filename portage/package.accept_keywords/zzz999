@@ -7,3 +7,11 @@
 =dev-python/cli-calc-0.3.8 ~amd64
 # required by =games-util/input-remapper-9999 (argument)
 =games-util/input-remapper-9999 **
+# required by dev-python/python-escpos (argument)
+=dev-python/python-escpos-3.1 ~amd64
+# required by dev-python/python-escpos-3.1::pypi
+# required by dev-python/python-escpos (argument)
+=dev-python/importlib-resources-6.5.2 ~amd64
+# required by dev-python/python-escpos-3.1::pypi
+# required by dev-python/python-escpos (argument)
+=dev-python/python-barcode-0.16.1 ~amd64
