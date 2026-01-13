@@ -5,3 +5,4 @@ media-fonts/noto X
 x11-misc/sddm X
 media-libs/babl introspection lcms
 dev-util/astyle java
+net-print/cups usb

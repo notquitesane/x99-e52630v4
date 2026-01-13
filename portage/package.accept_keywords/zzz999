@@ -7,5 +7,3 @@
 =dev-python/cli-calc-0.3.8 ~amd64
 # required by =games-util/input-remapper-9999 (argument)
 =games-util/input-remapper-9999 **
-# required by =net-print/cups-9999 (argument)
-=net-print/cups-9999 **
