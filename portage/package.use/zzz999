@@ -8,3 +8,4 @@ dev-util/astyle java
 net-print/cups usb
 dev-python/python-escpos cups usb
 dev-python/python-escpos PYTHON_TARGETS: python3_12 -python3_13
+www-client/firefox X
