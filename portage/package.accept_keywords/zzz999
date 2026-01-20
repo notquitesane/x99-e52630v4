@@ -42,3 +42,18 @@
 =www-client/google-chrome-unstable-146.0.7635.0 ~amd64
 # required by www-client/google-chrome-beta (argument)
 =www-client/google-chrome-beta-145.0.7632.5 ~amd64
+# required by net-libs/libsoup-3.6.5-r1::gentoo
+# required by www-client/epiphany-48.5::gentoo
+# required by www-client/epiphany (argument)
+=net-libs/nghttp2-1.68.0 ~amd64
+# required by net-libs/nodejs-24.11.1-r1::gentoo
+# required by www-client/firefox-140.7.0::gentoo
+# required by www-client/firefox (argument)
+=dev-cpp/simdutf-7.7.1 ~amd64
+# required by net-libs/nodejs-24.11.1-r1::gentoo
+# required by www-client/firefox-140.7.0::gentoo
+# required by www-client/firefox (argument)
+=dev-libs/simdjson-4.2.4 ~amd64
+# required by www-client/chromium-143.0.7499.109::gentoo
+# required by www-client/chromium (argument)
+=net-libs/nodejs-24.11.1-r1 ~amd64
