@@ -1,2 +1,4 @@
 # required by net-im/discord (argument)
 >=net-im/discord-0.0.113 all-rights-reserved
+# required by www-client/chromium (argument)
+=www-client/chromium-143.0.7499.109 unRAR
