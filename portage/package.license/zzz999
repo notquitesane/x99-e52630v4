@@ -2,3 +2,17 @@
 >=net-im/discord-0.0.113 all-rights-reserved
 # required by www-client/chromium (argument)
 =www-client/chromium-143.0.7499.109 unRAR
+# required by www-client/google-chrome-beta (argument)
+>=www-client/google-chrome-beta-145.0.7632.5 google-chrome
+# required by www-client/google-chrome-unstable (argument)
+>=www-client/google-chrome-unstable-146.0.7635.0 google-chrome
+# required by www-client/microsoft-edge (argument)
+>=www-client/microsoft-edge-143.0.3650.139 microsoft-edge
+# required by www-client/opera (argument)
+>=www-client/opera-126.0.5750.43 OPERA-2018
+# required by www-client/opera-beta (argument)
+>=www-client/opera-beta-126.0.5750.30 OPERA-2018
+# required by www-client/opera-developer (argument)
+>=www-client/opera-developer-127.0.5776.0 OPERA-2018
+# required by www-client/vivaldi (argument)
+=www-client/vivaldi-7.7.3851.66 Vivaldi
