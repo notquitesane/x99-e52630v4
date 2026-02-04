@@ -57,3 +57,5 @@
 # required by www-client/chromium-143.0.7499.109::gentoo
 # required by www-client/chromium (argument)
 =net-libs/nodejs-24.11.1-r1 ~amd64
+# required by =net-misc/yt-dlp-9999 (argument)
+=net-misc/yt-dlp-9999 **
