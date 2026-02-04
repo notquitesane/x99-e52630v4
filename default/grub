@@ -32,7 +32,7 @@ GRUB_DISTRIBUTOR="Gentoo"
 #GRUB_CMDLINE_LINUX_DEFAULT=""
 
 # Uncomment to disable graphical terminal (grub-pc only)
-#GRUB_TERMINAL=console
+GRUB_TERMINAL=console
 
 # Resolution used on graphical terminal.
 # The list of valid modes may be obtained using the 'vbeinfo' (PC BIOS) or
@@ -74,3 +74,9 @@ GRUB_DISABLE_LINUX_PARTUUID=false
 # This is useful, for example, to allow users who can't see the screen
 # to know when they can make a choice on the menu.
 #GRUB_INIT_TUNE="60 800 1"
+#
+GRUB_CMDLINE_LINUX="net.ifnames=0 udev.root=0 root=UUID=cc64a290-c793-4e4a-b38c-181faab160b2 rootfstype=f2fs rootflags=rw,discard,relatime rd.shell rd.vconsole.keymap=dvorak root_trim=yes"
+
+GRUB_TERMINAL_INPUT="at_keyboard"
+GRUB_KEYMAP="dvorak"
+
