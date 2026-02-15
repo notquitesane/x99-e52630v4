@@ -14,3 +14,4 @@ dev-libs/libportal gtk
 www-client/chromium X -screencast -wayland
 media-libs/libva X
 www-client/surf tabbed
+sys-libs/glibc -stack-realign
