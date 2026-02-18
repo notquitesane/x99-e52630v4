@@ -14,4 +14,5 @@ dev-libs/libportal gtk
 www-client/chromium X -screencast -wayland
 media-libs/libva X
 www-client/surf tabbed
-sys-libs/glibc -stack-realign
+sys-libs/glibc stack-realign
+sys-devel/gcc go graphite jit lto nls objc++ objc-gc openmp pgo rust sanitize zstd
