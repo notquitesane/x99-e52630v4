@@ -64,3 +64,5 @@
 # required by app-misc/jdupes-9999::gentoo
 # required by =app-misc/jdupes-9999 (argument)
 =dev-libs/libjodycode-4.0.1 ~amd64
+# required by app-officeext/languagetool (argument)
+=app-officeext/languagetool-6.4 ~amd64
