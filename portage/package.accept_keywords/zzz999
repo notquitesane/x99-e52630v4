@@ -66,3 +66,7 @@
 =dev-libs/libjodycode-4.0.1 ~amd64
 # required by app-officeext/languagetool (argument)
 =app-officeext/languagetool-6.4 ~amd64
+# required by media-gfx/cura (argument)
+=media-gfx/cura-5.9.0 ~amd64
+# required by media-gfx/termtosvg (argument)
+=media-gfx/termtosvg-1.1.0-r1 ~amd64
