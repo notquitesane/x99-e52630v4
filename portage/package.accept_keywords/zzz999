@@ -76,3 +76,9 @@
 =www-client/browsh-1.8.3 ~amd64
 # required by onefetch (argument)
 =app-misc/onefetch-2.26.1 ~amd64
+# required by wego (argument)
+=app-misc/wego-2.2 ~amd64
+# required by mcfly (argument)
+=app-shells/mcfly-0.9.3 ~amd64
+# required by ugrep (argument)
+=sys-apps/ugrep-7.5.0 ~amd64
