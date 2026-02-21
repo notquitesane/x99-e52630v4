@@ -70,3 +70,9 @@
 =media-gfx/cura-5.9.0 ~amd64
 # required by media-gfx/termtosvg (argument)
 =media-gfx/termtosvg-1.1.0-r1 ~amd64
+# required by media-sound/musikcube (argument)
+=media-sound/musikcube-3.0.5 ~amd64
+# required by browsh (argument)
+=www-client/browsh-1.8.3 ~amd64
+# required by onefetch (argument)
+=app-misc/onefetch-2.26.1 ~amd64
