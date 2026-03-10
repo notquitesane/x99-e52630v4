@@ -1,9 +1,9 @@
-root:x:0:root
+root:x:0:root,brltty
 bin:x:1:root,bin,daemon
 daemon:x:2:root,bin,daemon
 sys:x:3:root,bin,adm
 adm:x:4:root,adm,daemon
-tty:x:5:
+tty:x:5:brltty
 disk:x:6:root,adm
 lp:x:7:lp
 mem:x:8:
@@ -13,14 +13,14 @@ floppy:x:11:root
 news:x:13:news
 uucp:x:14:uucp
 console:x:17:
-audio:x:18:
+audio:x:18:brltty
 cdrom:x:19:
-dialout:x:20:nqs
+dialout:x:20:nqs,brltty
 tape:x:26:root
 video:x:27:root,nqs,sddm
 cdrw:x:80:
 usb:x:85:
-input:x:97:
+input:x:97:brltty
 users:x:100:
 portage:x:250:
 utmp:x:406:
@@ -60,3 +60,6 @@ shadow:x:42:
 sddm:x:219:
 jobserver:x:556:portage
 cuse:x:554:
+brltty:x:506:
+brlapi:x:507:brltty
+pulse-access:x:172:brltty

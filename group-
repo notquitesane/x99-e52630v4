@@ -15,7 +15,7 @@ uucp:x:14:uucp
 console:x:17:
 audio:x:18:
 cdrom:x:19:
-dialout:x:20:
+dialout:x:20:nqs
 tape:x:26:root
 video:x:27:root,nqs,sddm
 cdrw:x:80:
@@ -60,3 +60,6 @@ shadow:x:42:
 sddm:x:219:
 jobserver:x:556:portage
 cuse:x:554:
+brltty:x:506:
+brlapi:x:507:
+pulse-access:x:172:

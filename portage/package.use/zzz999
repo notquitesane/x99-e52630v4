@@ -16,3 +16,6 @@ media-libs/libva X
 www-client/surf tabbed
 sys-libs/glibc stack-realign
 sys-devel/gcc go graphite jit lto nls objc++ objc-gc openmp pgo rust sanitize zstd
+net-dns/dnsmasq ipv6 script
+net-libs/gnutls pkcs11 tools
+app-accessibility/brltty python
