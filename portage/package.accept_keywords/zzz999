@@ -86,3 +86,5 @@
 =media-gfx/sweethome3d-bin-7.5 ~amd64
 # required by x11-misc/dotool (argument)
 =x11-misc/dotool-1.5 ~amd64
+# required by sys-fs/go-mtpfs (argument)
+=sys-fs/go-mtpfs-1.0.0-r1 ~amd64
