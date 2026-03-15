@@ -90,3 +90,5 @@
 =sys-fs/go-mtpfs-1.0.0-r1 ~amd64
 # required by dev-python/libre-linkup-py (argument)
 =dev-python/libre-linkup-py-0.2.5 ~amd64
+# required by dev-python/pylibrelinkup (argument)
+=dev-python/pylibrelinkup-0.10.0 ~amd64
