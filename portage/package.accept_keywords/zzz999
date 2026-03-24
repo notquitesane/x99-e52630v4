@@ -92,3 +92,5 @@
 =dev-python/libre-linkup-py-0.2.5 ~amd64
 # required by dev-python/pylibrelinkup (argument)
 =dev-python/pylibrelinkup-0.10.0 ~amd64
+# required by godedupe (argument)
+=app-misc/godedupe-1.5.2 ~amd64
