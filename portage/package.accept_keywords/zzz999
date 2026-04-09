@@ -94,3 +94,5 @@
 =dev-python/pylibrelinkup-0.10.0 ~amd64
 # required by godedupe (argument)
 =app-misc/godedupe-1.5.2 ~amd64
+# required by kmon (argument)
+=app-misc/kmon-1.7.1 ~amd64
