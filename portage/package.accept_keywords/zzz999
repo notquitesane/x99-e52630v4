@@ -96,3 +96,5 @@
 =app-misc/godedupe-1.5.2 ~amd64
 # required by kmon (argument)
 =app-misc/kmon-1.7.1 ~amd64
+# required by navi (argument)
+=app-misc/navi-2.24.0 ~amd64
