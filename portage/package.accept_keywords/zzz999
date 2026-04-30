@@ -108,3 +108,5 @@
 =app-misc/grit-0.3.0 ~amd64
 # required by app-misc/tealdeer (argument)
 =app-misc/tealdeer-1.8.1 ~amd64
+# required by todo (argument)
+=app-misc/todo-2.13.0 ~amd64
