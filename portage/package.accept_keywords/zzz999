@@ -114,3 +114,5 @@
 >=app-portage/showbuild-0.9.1-r2 ~amd64
 # required by app-portage/portage-lostfiles (argument)
 >=app-portage/portage-lostfiles-0.5.6-r1 ~amd64
+# required by app-vim/vim-nftables (argument)
+>=app-vim/vim-nftables-0_pre20200629-r1 ~amd64
