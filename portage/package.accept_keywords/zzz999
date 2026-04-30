@@ -110,3 +110,7 @@
 =app-misc/tealdeer-1.8.1 ~amd64
 # required by todo (argument)
 =app-misc/todo-2.13.0 ~amd64
+# required by app-portage/showbuild (argument)
+>=app-portage/showbuild-0.9.1-r2 ~amd64
+# required by app-portage/portage-lostfiles (argument)
+>=app-portage/portage-lostfiles-0.5.6-r1 ~amd64
