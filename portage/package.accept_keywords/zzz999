@@ -100,3 +100,5 @@
 =app-misc/navi-2.24.0 ~amd64
 # required by app-admin/kernel-hardening-checker (argument)
 =app-admin/kernel-hardening-checker-0.6.17.1 ~amd64
+# required by app-misc/cheat (argument)
+=app-misc/cheat-4.3.3-r1 ~amd64
