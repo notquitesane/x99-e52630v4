@@ -104,3 +104,5 @@
 =app-misc/cheat-4.3.3-r1 ~amd64
 # required by app-misc/clipboard (argument)
 =app-misc/clipboard-0.10.0-r1 ~amd64
+# required by grit (argument)
+=app-misc/grit-0.3.0 ~amd64
