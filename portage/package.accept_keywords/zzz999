@@ -98,3 +98,5 @@
 =app-misc/kmon-1.7.1 ~amd64
 # required by navi (argument)
 =app-misc/navi-2.24.0 ~amd64
+# required by app-admin/kernel-hardening-checker (argument)
+=app-admin/kernel-hardening-checker-0.6.17.1 ~amd64
