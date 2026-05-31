@@ -22,6 +22,9 @@
 SystemGroup root lpadmin
 
 
+# Are Unix domain socket peer credentials used for authorization?
+PeerCred on
+
 # User that is substituted for unauthenticated (remote) root accesses...
 #RemoteRoot remroot
 
