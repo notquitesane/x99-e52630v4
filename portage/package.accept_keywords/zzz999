@@ -116,3 +116,5 @@
 >=app-portage/portage-lostfiles-0.5.6-r1 ~amd64
 # required by app-vim/vim-nftables (argument)
 >=app-vim/vim-nftables-0_pre20200629-r1 ~amd64
+# required by =dev-libs/libjodycode-4.1.2 (argument)
+=dev-libs/libjodycode-4.1.2 ~amd64
