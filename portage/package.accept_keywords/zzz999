@@ -118,3 +118,5 @@
 >=app-vim/vim-nftables-0_pre20200629-r1 ~amd64
 # required by =dev-libs/libjodycode-4.1.2 (argument)
 =dev-libs/libjodycode-4.1.2 ~amd64
+# required by media-gfx/ttygif (argument)
+=media-gfx/ttygif-1.6.0 ~amd64
