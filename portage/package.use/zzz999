@@ -20,3 +20,4 @@ net-dns/dnsmasq -ipv6 script
 net-libs/gnutls pkcs11 tools
 app-accessibility/brltty python
 sys-kernel/gentoo-sources experimental
+app-text/tesseract jpeg png tiff webp
