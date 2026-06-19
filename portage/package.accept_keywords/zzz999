@@ -124,3 +124,5 @@
 =app-text/OCRmyPDF-16.10.2 ~amd64
 # required by wego (argument)
 =app-misc/wego-2.4 ~amd64
+# required by dev-embedded/arduino-ide (argument)
+=dev-embedded/arduino-ide-2.3.8-r1 ~amd64
