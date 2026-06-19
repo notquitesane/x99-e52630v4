@@ -122,3 +122,5 @@
 =media-gfx/ttygif-1.6.0 ~amd64
 # required by app-text/OCRmyPDF (argument)
 =app-text/OCRmyPDF-16.10.2 ~amd64
+# required by wego (argument)
+=app-misc/wego-2.4 ~amd64
