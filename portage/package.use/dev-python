@@ -1,4 +1,7 @@
-dev-python/pillow tiff tk truetype webp
+dev-python/pillow jpeg2k lcms tiff tk truetype webp
+dev-python/pillow PYTHON_TARGETS: python3_13
 dev-python/pycairo X
+dev-python/pycairo PYTHON_TARGETS: python3_13
 dev-python/pyqt5 gui widgets
 dev-python/pyqt6 opengl quick svg webchannel
+dev-python/pyqt6 PYTHON_TARGETS: python3_13

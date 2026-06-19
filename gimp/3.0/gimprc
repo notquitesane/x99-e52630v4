@@ -45,7 +45,7 @@
 # you may want to set this to a higher value.  The integer size can contain a
 # suffix of 'B', 'K', 'M' or 'G' which makes GIMP interpret the size as being
 # specified in bytes, kilobytes, megabytes or gigabytes. If no suffix is
-# specified the size defaults to being specified in kilobytes.
+# specified the size defaults to being specified in bytes.
 # 
 # (tile-cache-size 2g)
 
@@ -113,7 +113,7 @@
 # Sets the brush search path.  This is a colon-separated list of folders to
 # search.
 # 
-# (mypaint-brush-path "/usr/share/mypaint-data/1.0/brushes:~/.mypaint/brushes")
+# (mypaint-brush-path "/usr/share/mypaint-data/2.0/brushes:~/.mypaint/brushes")
 
 # This is a colon-separated list of folders to search.
 # 
@@ -187,7 +187,7 @@
 # (default-gradient "FG to BG (RGB)")
 
 # Specify a default tool preset.  The tool preset is searched for in the
-# specified tool prests path.  This is a string value.
+# specified tool presets path.  This is a string value.
 # 
 # (default-tool-preset "Current Options")
 
@@ -264,7 +264,7 @@
 # as configured can be undone.  The integer size can contain a suffix of 'B',
 # 'K', 'M' or 'G' which makes GIMP interpret the size as being specified in
 # bytes, kilobytes, megabytes or gigabytes. If no suffix is specified the
-# size defaults to being specified in kilobytes.
+# size defaults to being specified in bytes.
 # 
 # (undo-size 1g)
 
@@ -310,7 +310,7 @@
 # being previewed is smaller than the size set here.  The integer size can
 # contain a suffix of 'B', 'K', 'M' or 'G' which makes GIMP interpret the
 # size as being specified in bytes, kilobytes, megabytes or gigabytes. If no
-# suffix is specified the size defaults to being specified in kilobytes.
+# suffix is specified the size defaults to being specified in bytes.
 # 
 # (thumbnail-filesize-limit 4M)
 
@@ -745,7 +745,7 @@
 # take more memory than the size specified here.  The integer size can
 # contain a suffix of 'B', 'K', 'M' or 'G' which makes GIMP interpret the
 # size as being specified in bytes, kilobytes, megabytes or gigabytes. If no
-# suffix is specified the size defaults to being specified in kilobytes.
+# suffix is specified the size defaults to being specified in bytes.
 # 
 # (max-new-image-size 128M)
 
@@ -837,7 +837,7 @@
 # The location of the online user manual. This is used if
 # 'user-manual-online' is enabled.  This is a string value.
 # 
-# (user-manual-online-uri "https://docs.gimp.org/3.0")
+# (user-manual-online-uri "https://docs.gimp.org/3.2")
 
 # The window type hint that is set on dock windows and the toolbox window.
 # This may affect the way your window manager decorates and handles these
