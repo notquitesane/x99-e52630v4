@@ -21,3 +21,8 @@ app-accessibility/brltty python
 sys-kernel/gentoo-sources experimental
 app-text/tesseract jpeg png tiff webp
 media-libs/leptonica jpeg png tiff webp
+app-portage/elogviewer PYTHON_SINGLE_TARGET: python3_13
+media-sound/beets PYTHON_SINGLE_TARGET: python3_13
+app-text/OCRmyPDF PYTHON_TARGETS: python3_13
+dev-util/howdoi PYTHON_TARGETS: python3_13
+x11-misc/xinput-gui PYTHON_TARGETS: python3_13
