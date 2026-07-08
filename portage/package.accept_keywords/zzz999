@@ -122,3 +122,5 @@
 =app-misc/wego-2.4 ~amd64
 # required by dev-embedded/arduino-ide (argument)
 =dev-embedded/arduino-ide-2.3.8-r1 ~amd64
+# required by draw-io (argument)
+=www-apps/draw-io-29.2.9 ~amd64
