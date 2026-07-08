@@ -26,3 +26,8 @@ media-sound/beets PYTHON_SINGLE_TARGET: python3_13
 app-text/OCRmyPDF PYTHON_TARGETS: python3_13
 dev-util/howdoi PYTHON_TARGETS: python3_13
 x11-misc/xinput-gui PYTHON_TARGETS: python3_13
+net-misc/yt-dlp -deno
+dev-python/more-itertools PYTHON_TARGETS: python3_13
+dev-python/numpy PYTHON_TARGETS: -python3_13
+net-p2p/qbittorrent webui
+x11-misc/lightdm X systemd

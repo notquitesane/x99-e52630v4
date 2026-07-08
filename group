@@ -63,3 +63,4 @@ cuse:x:554:
 brltty:x:506:
 brlapi:x:507:brltty
 pulse-access:x:172:brltty
+qbittorrent:x:534:
