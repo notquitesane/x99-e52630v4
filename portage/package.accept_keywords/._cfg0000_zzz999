@@ -1,0 +1,128 @@
+# required by www-client/ladybird (argument)
+=www-client/ladybird-9999 **
+# required by dev-python/cli-calc-0.3.8::pypi
+# required by cli-calc (argument)
+=dev-python/python-git-wrapper-0.9.0_p2 ~amd64
+# required by cli-calc (argument)
+=dev-python/cli-calc-0.3.8 ~amd64
+# required by =games-util/input-remapper-9999 (argument)
+=games-util/input-remapper-9999 **
+# required by dev-python/python-escpos (argument)
+=dev-python/python-escpos-3.1 ~amd64
+# required by dev-python/python-escpos-3.1::pypi
+# required by dev-python/python-escpos (argument)
+=dev-python/importlib-resources-6.5.2 ~amd64
+# required by dev-python/python-escpos-3.1::pypi
+# required by dev-python/python-escpos (argument)
+=dev-python/python-barcode-0.16.1 ~amd64
+# required by app-text/frog-1.6.0::guru[python_single_target_python3_13,-test]
+# required by app-text/frog (argument)
+=dev-python/posthog-7.5.1 ~amd64
+# required by app-text/frog-1.6.0::guru[python_single_target_python3_13,-test]
+# required by app-text/frog (argument)
+=dev-python/pyzbar-0.1.9 ~amd64
+# required by dev-python/posthog-7.5.1::pypi
+# required by app-text/frog-1.6.0::guru[python_single_target_python3_13,-test]
+# required by app-text/frog (argument)
+=dev-python/backoff-2.2.1 ~amd64
+# required by app-text/frog-1.6.0::guru[python_single_target_python3_13,-test]
+# required by app-text/frog (argument)
+=dev-python/py-nanoid-0_pre20220201 ~amd64
+# required by app-text/frog-1.6.0::guru[python_single_target_python3_13,-test]
+# required by app-text/frog (argument)
+=dev-python/gtts-2.5.4 ~amd64
+# required by dev-embedded/arduino-ide (argument)
+=dev-embedded/arduino-ide-2.3.7 ~amd64
+# required by app-text/frog-1.6.0::guru[python_single_target_python3_13,-test]
+# required by app-text/frog (argument)
+=dev-python/loguru-0.7.3 ~amd64
+# required by app-text/frog (argument)
+=app-text/frog-1.6.0 ~amd64
+# required by www-client/google-chrome-unstable (argument)
+=www-client/google-chrome-unstable-146.0.7635.0 ~amd64
+# required by www-client/google-chrome-beta (argument)
+=www-client/google-chrome-beta-145.0.7632.5 ~amd64
+# required by net-libs/libsoup-3.6.5-r1::gentoo
+# required by www-client/epiphany-48.5::gentoo
+# required by www-client/epiphany (argument)
+=net-libs/nghttp2-1.68.0 ~amd64
+# required by net-libs/nodejs-24.11.1-r1::gentoo
+# required by www-client/firefox-140.7.0::gentoo
+# required by www-client/firefox (argument)
+=dev-cpp/simdutf-7.7.1 ~amd64
+# required by net-libs/nodejs-24.11.1-r1::gentoo
+# required by www-client/firefox-140.7.0::gentoo
+# required by www-client/firefox (argument)
+=dev-libs/simdjson-4.2.4 ~amd64
+# required by www-client/chromium-143.0.7499.109::gentoo
+# required by www-client/chromium (argument)
+=net-libs/nodejs-24.11.1-r1 ~amd64
+# required by app-misc/jdupes-9999::gentoo
+# required by =app-misc/jdupes-9999 (argument)
+=dev-libs/libjodycode-4.0.1 ~amd64
+# required by app-officeext/languagetool (argument)
+=app-officeext/languagetool-6.4 ~amd64
+# required by media-gfx/cura (argument)
+=media-gfx/cura-5.9.0 ~amd64
+# required by media-gfx/termtosvg (argument)
+=media-gfx/termtosvg-1.1.0-r1 ~amd64
+# required by media-sound/musikcube (argument)
+=media-sound/musikcube-3.0.5 ~amd64
+# required by browsh (argument)
+=www-client/browsh-1.8.3 ~amd64
+# required by onefetch (argument)
+=app-misc/onefetch-2.26.1 ~amd64
+# required by wego (argument)
+=app-misc/wego-2.2 ~amd64
+# required by mcfly (argument)
+=app-shells/mcfly-0.9.3 ~amd64
+# required by ugrep (argument)
+=sys-apps/ugrep-7.5.0 ~amd64
+# required by media-gfx/sweethome3d-bin (argument)
+=media-gfx/sweethome3d-bin-7.5 ~amd64
+# required by x11-misc/dotool (argument)
+=x11-misc/dotool-1.5 ~amd64
+# required by sys-fs/go-mtpfs (argument)
+=sys-fs/go-mtpfs-1.0.0-r1 ~amd64
+# required by dev-python/libre-linkup-py (argument)
+=dev-python/libre-linkup-py-0.2.5 ~amd64
+# required by dev-python/pylibrelinkup (argument)
+=dev-python/pylibrelinkup-0.10.0 ~amd64
+# required by godedupe (argument)
+=app-misc/godedupe-1.5.2 ~amd64
+# required by kmon (argument)
+=app-misc/kmon-1.7.1 ~amd64
+# required by navi (argument)
+=app-misc/navi-2.24.0 ~amd64
+# required by app-admin/kernel-hardening-checker (argument)
+=app-admin/kernel-hardening-checker-0.6.17.1 ~amd64
+# required by app-misc/cheat (argument)
+=app-misc/cheat-4.3.3-r1 ~amd64
+# required by app-misc/clipboard (argument)
+=app-misc/clipboard-0.10.0-r1 ~amd64
+# required by grit (argument)
+=app-misc/grit-0.3.0 ~amd64
+# required by app-misc/tealdeer (argument)
+=app-misc/tealdeer-1.8.1 ~amd64
+# required by todo (argument)
+=app-misc/todo-2.13.0 ~amd64
+# required by app-portage/showbuild (argument)
+>=app-portage/showbuild-0.9.1-r2 ~amd64
+# required by app-portage/portage-lostfiles (argument)
+>=app-portage/portage-lostfiles-0.5.6-r1 ~amd64
+# required by app-vim/vim-nftables (argument)
+>=app-vim/vim-nftables-0_pre20200629-r1 ~amd64
+# required by =dev-libs/libjodycode-4.1.2 (argument)
+=dev-libs/libjodycode-4.1.2 ~amd64
+# required by media-gfx/ttygif (argument)
+=media-gfx/ttygif-1.6.0 ~amd64
+# required by app-text/OCRmyPDF (argument)
+=app-text/OCRmyPDF-16.10.2 ~amd64
+# required by wego (argument)
+=app-misc/wego-2.4 ~amd64
+# required by dev-embedded/arduino-ide (argument)
+=dev-embedded/arduino-ide-2.3.8-r1 ~amd64
+# required by draw-io (argument)
+=www-apps/draw-io-29.2.9 ~amd64
+# required by dev-embedded/arduino-ide (argument)
+>=dev-embedded/arduino-ide-2.3.10 ~amd64
