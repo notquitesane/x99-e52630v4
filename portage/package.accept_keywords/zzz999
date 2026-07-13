@@ -126,3 +126,5 @@
 =www-apps/draw-io-29.2.9 ~amd64
 # required by dev-embedded/arduino-ide (argument)
 >=dev-embedded/arduino-ide-2.3.10 ~amd64
+# required by sys-fs/jmtpfs (argument)
+=sys-fs/jmtpfs-0.5-r1 ~amd64
