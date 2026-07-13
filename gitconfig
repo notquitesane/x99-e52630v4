@@ -21,3 +21,5 @@
 	directory = /var/db/repos/ace
 	directory = /var/db/repos/robert7k
 	directory = /var/db/repos/sinustrom
+	directory = /var/db/repos/gentoo-zh
+	directory = /var/db/repos/bentoo

@@ -7,7 +7,7 @@ media-libs/babl introspection lcms
 dev-util/astyle java
 net-print/cups usb
 dev-python/python-escpos cups usb
-www-client/firefox X
+www-client/firefox X openh264 system-pipewire system-png wasm-sandbox
 net-libs/libdom xml
 dev-libs/libportal gtk
 www-client/chromium X -screencast -wayland
@@ -31,3 +31,4 @@ dev-python/more-itertools PYTHON_TARGETS: python3_13
 dev-python/numpy PYTHON_TARGETS: -python3_13
 net-p2p/qbittorrent webui
 x11-misc/lightdm X systemd
+media-libs/libpng apng

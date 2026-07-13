@@ -7,7 +7,8 @@ media-libs/libepoxy X
 media-libs/libglvnd X
 media-libs/libsdl2 X
 media-libs/libvpx postproc
-media-libs/mesa X wayland
+media-libs/mesa X lm-sensors vaapi -wayland
+media-libs/mesa VIDEO_CARDS: -intel -nouveau
 media-libs/opencv contrib contribdnn features2d -qt6
 media-libs/qhull static-libs
 media-libs/tiff jpeg

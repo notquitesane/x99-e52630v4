@@ -1,1 +1,1 @@
-app-office/libreoffice googledrive java pdfimport -qt6
+app-office/libreoffice googledrive -gtk3 java pdfimport qt6
