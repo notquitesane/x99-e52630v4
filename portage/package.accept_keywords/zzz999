@@ -128,3 +128,5 @@
 >=dev-embedded/arduino-ide-2.3.10 ~amd64
 # required by sys-fs/jmtpfs (argument)
 =sys-fs/jmtpfs-0.5-r1 ~amd64
+# required by =net-misc/yt-dlp-9999 (argument)
+=net-misc/yt-dlp-9999 **
