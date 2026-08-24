@@ -32,3 +32,4 @@ dev-python/numpy PYTHON_TARGETS: -python3_13
 net-p2p/qbittorrent webui
 x11-misc/lightdm X systemd
 media-libs/libpng apng
+app-arch/7zip rar
