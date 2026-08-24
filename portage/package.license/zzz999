@@ -16,3 +16,5 @@
 >=www-client/opera-developer-127.0.5776.0 OPERA-2018
 # required by www-client/vivaldi (argument)
 =www-client/vivaldi-7.7.3851.66 Vivaldi
+# required by 7zip (argument)
+>=app-arch/7zip-26.02-r1 unRAR
