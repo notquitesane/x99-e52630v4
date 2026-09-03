@@ -132,3 +132,5 @@
 =net-misc/yt-dlp-9999 **
 # required by =media-gfx/cura-5.13.0 (argument)
 =media-gfx/cura-5.13.0 ~amd64
+# required by =app-misc/jdupes-9999 (argument)
+=app-misc/jdupes-9999 **
