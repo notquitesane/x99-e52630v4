@@ -35,3 +35,4 @@ media-libs/libpng apng
 app-arch/7zip rar
 dev-python/pygame PYTHON_TARGETS: -python3_13
 x11-apps/mesa-progs X
+app-emulation/virtualbox X
