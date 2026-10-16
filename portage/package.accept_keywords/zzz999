@@ -136,3 +136,5 @@
 =app-misc/jdupes-9999 **
 # required by app-accessibility/whisper-cpp (argument)
 =app-accessibility/whisper-cpp-1.8.4 ~amd64
+# required by app-text/OCRmyPDF (argument)
+=app-text/OCRmyPDF-16.13.0 ~amd64
