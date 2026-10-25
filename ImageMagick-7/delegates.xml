@@ -62,6 +62,7 @@
   <delegate decode="bpg" command="&apos;bpgdec&apos; -b 16 -o &apos;%o&apos; &apos;%i&apos;"/>
   <delegate decode="png" encode="bpg" command="&apos;bpgenc&apos; -b 12 -q &apos;%~&apos; -o &apos;%o&apos; &apos;%i&apos;"/>
   <delegate decode="blender" command="&apos;blender&apos; -b &apos;%i&apos; -F PNG -o &apos;%o&apos;&apos;\n&apos;magick&apos; -concatenate &apos;%o*.png&apos; &apos;%o&apos;"/>
+  <delegate decode="c2pa:decode" command="&apos;c2patool&apos; --crjson &apos;%i&apos; &gt; &apos;%u.json&apos;;"/>
   <delegate decode="browse" stealth="True" spawn="True" command="&apos;xdg-open&apos; https://imagemagick.org/; /usr/bin/rm &apos;%i&apos;"/>
   <delegate decode="http:decode" command="&apos;curl&apos; -s -L -o &apos;%u.dat&apos; &apos;http:%M&apos;"/>
   <delegate decode="https:decode" command="&apos;curl&apos; -s -L -o &apos;%u.dat&apos; &apos;https:%M&apos;"/>

@@ -1,18 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE policymap [
   <!ELEMENT policymap (policy)*>
-  <!ATTLIST policymap xmlns CDATA #FIXED ''>
+  <!ATTLIST policymap
+    xmlns CDATA #FIXED ""
+  >
+
   <!ELEMENT policy EMPTY>
-  <!ATTLIST policy xmlns CDATA #FIXED '' domain NMTOKEN #REQUIRED
-    name NMTOKEN #IMPLIED pattern CDATA #IMPLIED rights NMTOKEN #IMPLIED
-    stealth NMTOKEN #IMPLIED value CDATA #IMPLIED>
+  <!ATTLIST policy
+    xmlns   CDATA   #FIXED ""
+    domain  NMTOKEN #REQUIRED
+    name    NMTOKEN #IMPLIED
+    pattern CDATA   #IMPLIED
+    rights  NMTOKEN #IMPLIED
+    stealth NMTOKEN #IMPLIED
+    value   CDATA   #IMPLIED
+  >
 ]>
 <!--
   Creating a security policy that fits your specific local environment
   before making use of ImageMagick is highly advised. You can find guidance on
   setting up this policy at https://imagemagick.org/script/security-policy.php,
   and it's important to verify your policy using the validation tool located
-  at https://imagemagick-secevaluator.doyensec.com/.
+  at https://imagemagick-secevaluator.doyensec.com/. We also strongly
+  recommend that all users validate their security assumptions by testing their
+  configurations after making any policy changes. This helps ensure that the 
+  intended restrictions are functioning as expected in their specific 
+  deployment environment.
 
 
   Limited ImageMagick security policy:
@@ -49,7 +62,7 @@
        cache memory. Images that exceed the area limit are cached to disk. -->
   <policy domain="resource" name="area" value="8KP"/>
   <!-- Set maximum amount of disk space in bytes permitted for use by the pixel
-       cache. When this limit is exceeded, the pixel cache is not be created
+       cache. When this limit is exceeded, the pixel cache is not created
        and an exception is thrown. -->
   <policy domain="resource" name="disk" value="2GiB"/>
   <!-- Set the maximum length of an image sequence.  When this limit is
@@ -85,7 +98,7 @@
   <!-- Indirect reads are not permitted. -->
   <policy domain="path" rights="none" pattern="@*"/>
   <!-- These image types are security risks on read, but write is fine -->
-  <policy domain="module" rights="write" pattern="{MSL,MVG,PS,SVG,TEXT,URL,XPS}"/>
+  <policy domain="module" rights="write" pattern="{MSL,MVG,PS,SVG,TXT,URL,XPS}"/>
   <!-- This policy sets the number of times to replace content of certain
        memory buffers and temporary files before they are freed or deleted. -->
   <!-- <policy domain="system" name="shred" value="1"/> -->

@@ -1,65 +1,116 @@
 #
 # config file for detox(1)
-# 
+#
+# Remove problematic characters.
+#
 
 #
-# Default sequence
+# Default sequence.
 #
 
 sequence default {
-	utf_8;
-	safe;
-	wipeup;
+	safe {
+		builtin "safe";
+	};
+	wipeup {
+		remove_trailing;
+	};
 };
 
 #
 # Sequences meant primarily for detox
 #
 
-# transliterates ISO8859-1 into ASCII
+# transcodes ISO-8859-1 into UTF-8
 sequence "iso8859_1" {
-	iso8859_1;
-	safe;
-	wipeup;
+	iso8859_1 {
+		builtin "iso8859_1";
+	};
+	safe {
+		builtin "safe";
+	};
+	wipeup {
+		remove_trailing;
+	};
 };
 
-# transliterates UTF-8 into ASCII
+# transcodes CP-1252 and ISO-8859-1 into UTF-8
+sequence "iso8859_1-legacy" {
+	iso8859_1 {
+		builtin "cp1252";
+	};
+	iso8859_1 {
+		builtin "iso8859_1";
+	};
+	safe {
+		builtin "safe";
+	};
+	wipeup {
+		remove_trailing;
+	};
+};
+
+# handles UTF-8 control codes
 sequence "utf_8" {
-	utf_8;
-	safe;
-	wipeup;
+	utf_8 {
+		builtin "unicode";
+	};
+	safe {
+		builtin "safe";
+	};
+	wipeup {
+		remove_trailing;
+	};
 };
 
-# decodes CGI escaped characters
+# decodes CGI-escaped characters
 sequence "uncgi" {
 	uncgi;
-	safe;
-	wipeup;
+	safe {
+		builtin "safe";
+	};
+	wipeup {
+		remove_trailing;
+	};
 };
 
 # converts files to lower case
 sequence "lower" {
-	iso8859_1;
-	safe;
+	safe {
+		builtin "safe";
+	};
 	lower;
-	wipeup;
+	wipeup {
+		remove_trailing;
+	};
 };
 
 #
 # Sequences meant primarily for inline-detox
 #
 
-# transliterates ISO8859-1 to ASCII
+# transcodes ISO-8859-1 to ASCII
 sequence "iso8859_1-only" {
-	iso8859_1;
+	iso8859_1 {
+		builtin "iso8859_1";
+	};
 };
 
-# transliterates UTF-8 to ASCII
+# transcodes CP-1252 to ASCII
+sequence "cp1252-only" {
+	iso8859_1 {
+		builtin "cp1252";
+	};
+};
+
+# handles UTF-8 control codes
 sequence "utf_8-only" {
-	utf_8;
+	utf_8 {
+		builtin "unicode";
+	};
 };
 
-# decodes CGI escaped characters
+# decodes CGI-escaped characters
 sequence "uncgi-only" {
 	uncgi;
 };
@@ -71,14 +122,12 @@ sequence "lower-only" {
 
 
 #
-# Files to ignore (detox only)
+# Files to ignore during recursion (detox only)
+#
+# Any file or directory starting with '.' is automatically ignored except when
+# it is passed on the command-line.
 #
 
 ignore {
-	filename ".arch-params";
-	filename ".evolution";
-	filename ".gnome";
-	filename ".mozilla";
-	filename ".themes";
 	filename "{arch}";
 };
